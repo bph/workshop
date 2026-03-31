@@ -5,7 +5,7 @@
     "wp": "latest"
   },
   "login":true,
-  "plugins":["create-block-theme","wordpress-importer","gutenberg"],
+  "plugins":["create-block-theme","gutenberg"],
   "steps": [
     {
       "step": "setSiteOptions",
