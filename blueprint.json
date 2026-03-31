@@ -1,21 +1,12 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "landingPage": "/wp-admin/",
   "preferredVersions": {
     "php": "8.2",
     "wp": "latest"
   },
-  "phpExtensionBundles": ["kitchen-sink"],
-  "features": {
-    "networking": true
-  },
+  "login":true,
+  "plugins":["create-block-theme","wordpress-importer","gutenberg"],
   "steps": [
-
-    {
-      "step": "login",
-      "username": "admin",
-      "password": "password"
-    },
 
     {
       "step": "setSiteOptions",
@@ -25,7 +16,9 @@
         "permalink_structure": "/%postname%/",
         "timezone_string": "Asia/Kolkata",
         "start_of_week": "1",
-        "default_comment_status": "closed"
+        "default_comment_status": "closed",
+        "show_on_front": "page",
+        "page_on_front": "2"
       }
     },
 
@@ -39,29 +32,6 @@
         "activate": true
       }
     },
-
-    {
-      "step": "installPlugin",
-      "pluginZipFile": {
-        "resource": "wordpress.org/plugins",
-        "slug": "create-block-theme"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-
-    {
-      "step": "installPlugin",
-      "pluginZipFile": {
-        "resource": "wordpress.org/plugins",
-        "slug": "wordpress-importer"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-
     {
       "step": "importWxr",
       "file": {
@@ -71,48 +41,13 @@
     },
 
     {
-      "step": "runWpCliCommand",
-      "command": "wp option update show_on_front page"
-    },
-
-    {
-      "step": "runWpCliCommand",
-      "command": "wp option update page_on_front 2"
-    },
-
-    {
-      "step": "runWpCliCommand",
+      "step": "wp-cli",
       "command": "wp rewrite flush"
     },
 
     {
-      "step": "runWpCliCommand",
-      "command": "wp menu create \"Primary Navigation\""
-    },
-
-    {
-      "step": "runWpCliCommand",
-      "command": "wp menu item add-post primary-navigation 3 --title=\"About\""
-    },
-
-    {
-      "step": "runWpCliCommand",
-      "command": "wp menu item add-post primary-navigation 4 --title=\"Services\""
-    },
-
-    {
-      "step": "runWpCliCommand",
-      "command": "wp menu item add-term primary-navigation category 10 --title=\"Projects\""
-    },
-
-    {
-      "step": "runWpCliCommand",
-      "command": "wp menu item add-post primary-navigation 5 --title=\"Contact\""
-    },
-
-    {
-      "step": "runWpCliCommand",
-      "command": "wp menu location assign primary-navigation primary"
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; wp_insert_post(array('post_type' => 'wp_navigation', 'post_title' => 'Primary Navigation', 'post_status' => 'publish', 'post_content' => '<!-- wp:navigation-link {\"label\":\"About\",\"url\":\"/about/\",\"kind\":\"post-type\",\"isTopLevelLink\":true} /--><!-- wp:navigation-link {\"label\":\"Services\",\"url\":\"/services/\",\"kind\":\"post-type\",\"isTopLevelLink\":true} /--><!-- wp:navigation-link {\"label\":\"Projects\",\"url\":\"/category/projects/\",\"kind\":\"taxonomy\",\"isTopLevelLink\":true} /--><!-- wp:navigation-link {\"label\":\"Contact\",\"url\":\"/contact/\",\"kind\":\"post-type\",\"isTopLevelLink\":true} /-->')); ?>"
     }
 
   ]
