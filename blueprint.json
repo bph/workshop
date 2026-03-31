@@ -17,15 +17,15 @@
         "start_of_week": "1",
         "default_comment_status": "closed",
         "show_on_front": "page",
-        "page_on_front": "7"
+        "page_on_front": "4"
       }
     },
 
     {
       "step": "importWxr",
       "file": {
-        "resource": "bundled",
-        "path": "/concrete-and-light.xml"
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/bph/workshop/main/concrete-and-light.xml"
       }
     }
   ]
