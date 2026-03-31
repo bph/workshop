@@ -8,9 +8,9 @@
 ```
 workshop/
 ├── blueprint.json                  ← WordPress Studio blueprint
-├── my-theme.zip                    ← The bare-bones block theme
-├── content/
-│   └── concrete-and-light.xml      ← Demo content (WXR import)
+├── my-theme/                       ← The bare-bones block theme (extracted)
+├── my-theme.zip                    ← Theme zip (not tracked in git)
+├── concrete-and-light.xml          ← Demo content (WXR import)
 └── README.md                       ← This file
 ```
 
@@ -23,13 +23,11 @@ workshop/
 3. Select `blueprint.json` from this folder
 4. Studio will automatically:
    - Install WordPress (PHP 8.2, latest WP)
-   - Install and activate **My Theme** (`my-theme.zip`)
-   - Install and activate **Create Block Theme** from WordPress.org
-   - Import all demo content (5 pages + 3 project posts)
+   - Install and activate **Create Block Theme**, **WordPress Importer**, and **Gutenberg** plugins
+   - Import all demo content (5 pages + 3 project posts) from GitHub
    - Set the Home page as the static front page
    - Set pretty permalinks (`/post-name/`)
-   - Create and assign the Primary Navigation menu
-5. Log in with **admin / password**
+5. After site creation, install the theme manually from `my-theme.zip`
 
 ---
 
