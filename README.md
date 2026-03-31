@@ -16,18 +16,22 @@ workshop/
 
 ---
 
-### How to use in WordPress Studio
+### How to use with the Studio CLI
 
-1. Open **WordPress Studio** on your machine
-2. Click **Add site → Import from blueprint**
-3. Select `blueprint.json` from this folder
-4. Studio will automatically:
-   - Install WordPress (PHP 8.2, latest WP)
-   - Install and activate **Create Block Theme**, **WordPress Importer**, and **Gutenberg** plugins
-   - Import all demo content (5 pages + 3 project posts) from GitHub
-   - Set the Home page as the static front page
-   - Set pretty permalinks (`/post-name/`)
-5. After site creation, install the theme manually from `my-theme.zip`
+From the workshop folder, run:
+
+```bash
+studio site create --name "Concrete and Light" --blueprint ./blueprint.json --path ~/Studio/concrete-light
+```
+
+Studio will automatically:
+- Install WordPress (PHP 8.2, latest WP)
+- Install and activate **Create Block Theme**, **WordPress Importer**, and **Gutenberg** plugins
+- Import all demo content (5 pages + 3 project posts)
+- Set the Home page as the static front page
+- Set pretty permalinks (`/post-name/`)
+
+After site creation, install the theme manually from `my-theme.zip`.
 
 ---
 
