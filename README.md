@@ -26,7 +26,7 @@ studio site create --name "Concrete and Light" --blueprint ./blueprint.json --pa
 
 Studio will automatically:
 - Install WordPress (PHP 8.2, latest WP)
-- Install and activate **Create Block Theme**, **WordPress Importer**, and **Gutenberg** plugins
+- Install and activate **Create Block Theme**, and **Gutenberg** plugins
 - Import all demo content (5 pages + 3 project posts)
 - Set the Home page as the static front page
 - Set pretty permalinks (`/post-name/`)
