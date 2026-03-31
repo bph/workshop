@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+  <title>Concrete &amp; Light</title>
+  <link>http://localhost</link>
+  <description>Heritage Architecture &amp; Restoration, Mumbai</description>
+  <pubDate>Sat, 28 Mar 2026 09:00:00 +0000</pubDate>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>http://localhost</wp:base_site_url>
+  <wp:base_blog_url>http://localhost</wp:base_blog_url>
+
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[admin]]></wp:author_login>
+    <wp:author_email><![CDATA[admin@example.com]]></wp:author_email>
+    <wp:author_display_name><![CDATA[Concrete & Light]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[Concrete]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[Light]]></wp:author_last_name>
+  </wp:author>
+
+  <wp:category>
+    <wp:term_id>10</wp:term_id>
+    <wp:category_nicename><![CDATA[projects]]></wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Projects]]></wp:cat_name>
+    <wp:category_description><![CDATA[Selected heritage restoration and adaptive reuse projects by Concrete & Light, Mumbai.]]></wp:category_description>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>11</wp:term_id>
+    <wp:category_nicename><![CDATA[residential-restoration]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[projects]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Residential Restoration]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>12</wp:term_id>
+    <wp:category_nicename><![CDATA[adaptive-reuse]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[projects]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Adaptive Reuse]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>13</wp:term_id>
+    <wp:category_nicename><![CDATA[community-religious]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[projects]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Community & Religious]]></wp:cat_name>
+  </wp:category>
+
+  <!-- ============================================================ -->
+  <!-- PAGE: Home (Landing Page)                                    -->
+  <!-- ============================================================ -->
+  <item>
+    <title>Home</title>
+    <link>http://localhost/home/</link>
+    <pubDate>Sat, 28 Mar 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:group {"align":"full","className":"is-style-dark-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|3xl","bottom":"var:preset|spacing|3xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained","contentSize":"680px"}} -->
+<div class="wp-block-group alignfull is-style-dark-band">
+  <!-- wp:heading {"level":1,"textAlign":"center"} -->
+  <h1 class="wp-block-heading has-text-align-center">We Restore What Time Has Honoured</h1>
+  <!-- /wp:heading -->
+  <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var:preset|font-size|lg"}}} -->
+  <p class="has-text-align-center" style="font-size:var(--wp--preset--font-size--lg)">Concrete &amp; Light is a Mumbai-based architecture and restoration studio. We bring heritage buildings back to life — with patience, precision, and deep respect for the original hand.</p>
+  <!-- /wp:paragraph -->
+  <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|lg"}}}} -->
+  <div class="wp-block-buttons">
+    <!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button">View Our Work</a></div><!-- /wp:button -->
+    <!-- wp:button {"className":"is-style-outline"} --><div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">Talk to Us</a></div><!-- /wp:button -->
+  </div>
+  <!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","className":"is-style-accent-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-accent-band">
+  <!-- wp:heading {"level":2,"textAlign":"center"} -->
+  <h2 class="wp-block-heading has-text-align-center">Mumbai's Built Heritage Is Irreplaceable</h2>
+  <!-- /wp:heading -->
+  <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|md"}}}} -->
+  <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--md)">From the Gothic Revival spires of Fort to the sun-bleached Art Deco curves of Marine Drive, Mumbai holds one of the most extraordinary concentrations of historic architecture in Asia. These buildings are not relics — they are living fabric. Our work is to keep them standing, breathing, and in use for the next hundred years.</p>
+  <!-- /wp:paragraph -->
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|xl"},"margin":{"top":"var:preset|spacing|xl"}}}} -->
+  <div class="wp-block-columns alignwide">
+    <!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Structural Restoration</h3><!-- /wp:heading --><!-- wp:paragraph --><p>We assess, stabilise, and repair historic structures using materials and methods sympathetic to the original build — lime plaster, Malad stone, Mangalore tile, Burma teak.</p><!-- /wp:paragraph --></div><!-- /wp:column -->
+    <!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Adaptive Reuse</h3><!-- /wp:heading --><!-- wp:paragraph --><p>We convert disused warehouses, mansions, and colonial offices into residences, studios, and hospitality spaces — without erasing what makes them extraordinary.</p><!-- /wp:paragraph --></div><!-- /wp:column -->
+    <!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Documentation &amp; Conservation</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Before a single stone is moved, we document. Measured drawings, photographic surveys, material analysis — a complete record that guides restoration and satisfies heritage authority requirements.</p><!-- /wp:paragraph --></div><!-- /wp:column -->
+  </div>
+  <!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","className":"is-style-highlight","style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-highlight">
+  <!-- wp:columns {"align":"wide"} -->
+  <div class="wp-block-columns alignwide">
+    <!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"level":2,"textAlign":"center","style":{"typography":{"fontSize":"var:preset|font-size|4xl","fontWeight":"800"}}} --><h2 class="wp-block-heading has-text-align-center" style="font-size:var(--wp--preset--font-size--4xl);font-weight:800">24</h2><!-- /wp:heading --><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var:preset|font-size|sm","fontWeight":"700","textTransform":"uppercase"}}} --><p class="has-text-align-center" style="font-size:var(--wp--preset--font-size--sm);font-weight:700;text-transform:uppercase">Heritage Projects Completed</p><!-- /wp:paragraph --></div><!-- /wp:column -->
+    <!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"level":2,"textAlign":"center","style":{"typography":{"fontSize":"var:preset|font-size|4xl","fontWeight":"800"}}} --><h2 class="wp-block-heading has-text-align-center" style="font-size:var(--wp--preset--font-size--4xl);font-weight:800">11</h2><!-- /wp:heading --><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var:preset|font-size|sm","fontWeight":"700","textTransform":"uppercase"}}} --><p class="has-text-align-center" style="font-size:var(--wp--preset--font-size--sm);font-weight:700;text-transform:uppercase">Years in Mumbai Conservation</p><!-- /wp:paragraph --></div><!-- /wp:column -->
+    <!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"level":2,"textAlign":"center","style":{"typography":{"fontSize":"var:preset|font-size|4xl","fontWeight":"800"}}} --><h2 class="wp-block-heading has-text-align-center" style="font-size:var(--wp--preset--font-size--4xl);font-weight:800">3</h2><!-- /wp:heading --><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var:preset|font-size|sm","fontWeight":"700","textTransform":"uppercase"}}} --><p class="has-text-align-center" style="font-size:var(--wp--preset--font-size--sm);font-weight:700;text-transform:uppercase">Heritage Network Awards</p><!-- /wp:paragraph --></div><!-- /wp:column -->
+  </div>
+  <!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","className":"is-style-dark-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<div class="wp-block-group alignfull is-style-dark-band">
+  <!-- wp:heading {"level":2,"textAlign":"center"} --><h2 class="wp-block-heading has-text-align-center">Your Building Has a Story Worth Keeping</h2><!-- /wp:heading -->
+  <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|md"}}}} --><p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--md)">Whether you own a listed property, a family home of historical significance, or a commercial building you want to restore rather than demolish — we would like to hear about it.</p><!-- /wp:paragraph -->
+  <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|lg"}}}} -->
+  <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--lg)"><!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Start a Conversation</a></div><!-- /wp:button --></div>
+  <!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>2</wp:post_id>
+    <wp:post_date>2026-03-28 09:00:00</wp:post_date>
+    <wp:post_name>home</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>page</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:postmeta>
+      <wp:meta_key>_wp_page_template</wp:meta_key>
+      <wp:meta_value><![CDATA[page-landing]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- PAGE: About                                                  -->
+  <!-- ============================================================ -->
+  <item>
+    <title>About the Studio</title>
+    <link>http://localhost/about/</link>
+    <pubDate>Sat, 28 Mar 2026 09:01:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">We Started With One Building</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Concrete &amp; Light was founded in 2013 by Arjun Mehta and Priya Deshpande, two architects who met while working on the restoration of a crumbling Portuguese-era chapel in Bandra. They disagreed, constantly, about almost everything — except one thing: that the building deserved better than a demolition notice.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>That chapel is now a community arts space. It is full of people every evening. That outcome is why we do this work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Our Approach</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Heritage restoration is slow work. It requires archival research, materials archaeology, and sustained conversation with the people who own, inhabit, and care about a building. We do not rush it. We do not apply contemporary aesthetics over historical ones. And we do not begin construction until we understand what we are dealing with.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We work within Mumbai's conservation precinct framework and hold active relationships with the Maharashtra Heritage Conservation Committee, the Municipal Corporation of Greater Mumbai, and the National Trust for Art and Cultural Heritage (INTACH Mumbai Chapter).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Team</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Arjun Mehta — Principal Architect</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Arjun studied architecture at Sir J.J. College of Art and completed a postgraduate fellowship in conservation at the University of Edinburgh. He specialises in structural assessment and has led restoration projects across South Mumbai, Pune, and Goa. He is unreasonably passionate about lime mortar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Priya Deshpande — Principal, Interiors &amp; Adaptive Reuse</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Priya's background spans architecture, material culture, and furniture history. She leads all adaptive reuse commissions at the studio, balancing contemporary interior needs against the spatial logic of historic buildings. She collects Bidriware and vintage maps of Bombay.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Roshni Iyer — Conservation Architect</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Roshni joined the studio in 2018 after five years with INTACH. She manages documentation, heritage approvals, and site supervision. If a building has a secret — a bricked-up doorway, a buried tile floor, a painted ceiling under twelve layers of whitewash — Roshni will find it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"align":"full","className":"is-style-highlight","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-highlight">
+  <!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Recognitions</h2><!-- /wp:heading -->
+  <!-- wp:list -->
+  <ul class="wp-block-list">
+    <li>Indian Heritage Cities Network Award for Adaptive Reuse, 2022</li>
+    <li>UNESCO Asia-Pacific Award for Cultural Heritage Conservation, Honourable Mention, 2020</li>
+    <li>CEPT Architecture Award, Conservation Category, 2018</li>
+  </ul>
+  <!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Concrete & Light was founded in 2013 by Arjun Mehta and Priya Deshpande. We bring heritage buildings back to life — with patience, precision, and deep respect for the original hand.]]></excerpt:encoded>
+    <wp:post_id>3</wp:post_id>
+    <wp:post_date>2026-03-28 09:01:00</wp:post_date>
+    <wp:post_name>about</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>page</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- PAGE: Services                                               -->
+  <!-- ============================================================ -->
+  <item>
+    <title>What We Do</title>
+    <link>http://localhost/services/</link>
+    <pubDate>Sat, 28 Mar 2026 09:02:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|lg"}}} -->
+<p style="font-size:var(--wp--preset--font-size--lg)">We offer a focused range of services built around one discipline — bringing historic buildings back to full life. We do not do new builds. We do not do fast renovations. Everything we do begins with understanding what a building is, and what it could still become.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Structural Restoration</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The foundation of all our work. We carry out full structural assessments of historic buildings, identifying subsidence, material failure, water ingress, and the accumulated consequences of decades of deferred maintenance. Our restoration work uses traditional materials wherever the heritage brief demands it — hydraulic lime, natural pozzolans, Malad stone, country brick — combined with discreet modern interventions where structural safety requires it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Adaptive Reuse</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Mumbai's heritage buildings were not designed for contemporary life. Our adaptive reuse work reimagines how these spaces can function today — as residences, boutique hotels, offices, galleries, or community facilities — while retaining the spatial character, materials, and historical identity that make them worth saving.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Every adaptive reuse project begins with a conservation management plan that defines what is significant and must be retained, and what can be changed or added. New interventions are always legible as new — we do not fake history — but they are designed to complement the existing fabric rather than overwhelm it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Documentation &amp; Heritage Approvals</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Before any physical work begins, a building must be understood. We produce comprehensive documentation packages including architectural measured drawings, photographic records, material schedules, and historical research reports. These serve both as a guide for the restoration team and as a submission to heritage authorities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We manage the full approvals process with MHCC, MCGM, and INTACH, including Grade I and Grade II listed building consents. We know these processes well, and we know how to move through them efficiently without cutting corners.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Consultation &amp; Advisory</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not every project requires a full commission. We offer standalone consultation services for building owners who need a professional assessment, a second opinion, or guidance on whether a building is worth restoring. Consultation engagements typically take two to four weeks and result in a written report with recommendations.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"align":"full","className":"is-style-accent-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<div class="wp-block-group alignfull is-style-accent-band">
+  <!-- wp:pullquote -->
+  <figure class="wp-block-pullquote"><blockquote><p>"We take on six to eight projects per year. If you are considering a restoration, the best time to speak to us is before you've made any decisions."</p><cite>Arjun Mehta, Principal</cite></blockquote></figure>
+  <!-- /wp:pullquote -->
+</div>
+<!-- /wp:group -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[A focused range of services built around one discipline — bringing historic buildings back to full life.]]></excerpt:encoded>
+    <wp:post_id>4</wp:post_id>
+    <wp:post_date>2026-03-28 09:02:00</wp:post_date>
+    <wp:post_name>services</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>page</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- PAGE: Contact                                                -->
+  <!-- ============================================================ -->
+  <item>
+    <title>Get in Touch</title>
+    <link>http://localhost/contact/</link>
+    <pubDate>Sat, 28 Mar 2026 09:03:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|lg"}}} -->
+<p style="font-size:var(--wp--preset--font-size--lg)">We work with private owners, developers, trusts, and institutions across Maharashtra. If you have a heritage property — listed or unlisted — and you are thinking seriously about its future, we would like to hear from you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Our Studio</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Concrete &amp; Light<br>4th Floor, Dhanraj Mahal<br>Chhatrapati Shivaji Maharaj Marg<br>Apollo Bunder, Colaba<br>Mumbai 400 001</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>studio@concreteandlight.in<br>+91 22 6140 8800</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Studio Hours</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Monday to Friday, 9:00 am – 6:00 pm<br>Site visits by appointment</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">New Project Enquiries</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For new project enquiries, please use the contact form below. Tell us about the building — its age, location, current condition, and what you are hoping to achieve. The more you can share at this stage, the better we can assess whether we are the right team for the project.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Press &amp; Publications</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For editorial requests, image licensing, and speaking engagements, please contact Priya Deshpande directly at priya@concreteandlight.in.</p>
+<!-- /wp:paragraph -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[We work with private owners, developers, trusts, and institutions across Maharashtra.]]></excerpt:encoded>
+    <wp:post_id>5</wp:post_id>
+    <wp:post_date>2026-03-28 09:03:00</wp:post_date>
+    <wp:post_name>contact</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>page</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- PAGE: Projects (archive page)                               -->
+  <!-- ============================================================ -->
+  <item>
+    <title>Projects</title>
+    <link>http://localhost/projects/</link>
+    <pubDate>Sat, 28 Mar 2026 09:04:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:paragraph -->
+<p>Selected heritage restoration and adaptive reuse projects by Concrete &amp; Light, Mumbai.</p>
+<!-- /wp:paragraph -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Selected heritage restoration and adaptive reuse projects.]]></excerpt:encoded>
+    <wp:post_id>6</wp:post_id>
+    <wp:post_date>2026-03-28 09:04:00</wp:post_date>
+    <wp:post_name>projects</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>page</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>5</wp:menu_order>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- POST: Project 1 — Readymoney Mansion                        -->
+  <!-- ============================================================ -->
+  <item>
+    <title>The Readymoney Mansion, Malabar Hill</title>
+    <link>http://localhost/readymoney-mansion/</link>
+    <pubDate>Sat, 28 Mar 2026 09:05:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Brief</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Irani family had owned this Malabar Hill mansion since it was built in 1896. For thirty years it had been partially occupied, slowly deteriorating. The family wanted to restore it for full residential use by the fourth generation, without losing its Grade II heritage listing or its character.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What We Found</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The structure was sounder than it looked. The primary concern was water ingress through the original flat roof, which had caused significant damage to the internal lime plaster and the teak ceiling joists on the upper floor. The ground-floor Minton tile floors — original to the building — were intact beneath three layers of subsequent flooring. The exterior Malad stone facade had been painted over at some point in the 1970s, concealing carved ornamental details.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What We Did</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We stripped the facade paint using a low-pressure poultice method to avoid damaging the stone. The carved details — floral panels, pilasters, the family crest above the entrance — were cleaned, consolidated, and repointed with matching lime mortar. A new waterproof roof deck was installed above the original structure, creating a drainage plane while preserving the historic parapet visible from the street.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Internally, the three later floor layers were carefully removed to reveal the Minton tiles. Approximately 12% of the tiles required replacement; we sourced period-matching tiles from a specialist in Stoke-on-Trent and a complementary local supplier in Pondicherry. The teak ceiling joists were assessed, sistered where necessary, and left exposed in the restored interiors.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Result</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The mansion is now fully occupied. The heritage listing is maintained. The Irani family held the housewarming on the building's 127th birthday.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"align":"full","className":"is-style-accent-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<div class="wp-block-group alignfull is-style-accent-band">
+  <!-- wp:pullquote -->
+  <figure class="wp-block-pullquote"><blockquote><p>"We were prepared for the worst. What we found instead was a building that had been waiting, very patiently, to be properly looked after."</p><cite>Priya Deshpande</cite></blockquote></figure>
+  <!-- /wp:pullquote -->
+</div>
+<!-- /wp:group -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[A 127-year-old Parsi family mansion returned to full residential use after four years of painstaking restoration — lime render, original Minton tile floors, and a rooftop garden that breaks no heritage rules.]]></excerpt:encoded>
+    <wp:post_id>20</wp:post_id>
+    <wp:post_date>2026-03-01 09:00:00</wp:post_date>
+    <wp:post_name>readymoney-mansion</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>post</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <category domain="category" nicename="projects"><![CDATA[Projects]]></category>
+    <category domain="category" nicename="residential-restoration"><![CDATA[Residential Restoration]]></category>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- POST: Project 2 — Wadia Baug Warehouse                      -->
+  <!-- ============================================================ -->
+  <item>
+    <title>Wadia Baug Warehouse, Byculla</title>
+    <link>http://localhost/wadia-baug-warehouse/</link>
+    <pubDate>Sat, 28 Mar 2026 09:06:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Brief</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A Mumbai-based arts trust acquired the Wadia Baug warehouse in 2019 with a clear ambition: create affordable long-term studio space for Mumbai artists, in a city where such space is vanishing. The building was structurally sound but had been vacant for eleven years.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What We Found</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The warehouse was a remarkable example of early industrial construction in Mumbai — load-bearing brick walls of exceptional quality, a forest of cast-iron columns on a 4.5-metre grid, and a sawtooth roof that still flooded the interior with north light. The floor was concrete screed over compacted earth, badly cracked. The services were non-existent.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What We Did</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The design decision was made early: nothing structural or material would be concealed. Every column, beam, brick wall, and the sawtooth roof profile above would remain fully visible. New elements — mezzanine sleeping platforms, kitchen and bathroom pods, electrical conduit — would be clearly contemporary in material and finish: powder-coated steel, polished concrete, clear-sealed OSB.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The twelve studios range from 45 to 90 square metres. Each is designed to function as a combined living and working space, with the mezzanine sleeping area freeing the full ground-floor plate for studio use. Shared facilities — a common workshop, a material store, a small gallery space facing the street — occupy the original loading bay at the building's east end.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Result</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The studios were fully let within six weeks of completion. A waiting list has operated since. The gallery space has hosted fourteen exhibitions in its first year. The trust is now looking for a second building.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"align":"full","className":"is-style-dark-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<div class="wp-block-group alignfull is-style-dark-band">
+  <!-- wp:pullquote -->
+  <figure class="wp-block-pullquote"><blockquote><p>"The brief said 'do as little as possible.' That turned out to be exactly the right approach."</p><cite>Arjun Mehta</cite></blockquote></figure>
+  <!-- /wp:pullquote -->
+</div>
+<!-- /wp:group -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[A 1920s cotton warehouse in Byculla's old mill district transformed into twelve live-work studios for artists and designers — every original column, beam, and brick deliberately left visible.]]></excerpt:encoded>
+    <wp:post_id>21</wp:post_id>
+    <wp:post_date>2026-02-01 09:00:00</wp:post_date>
+    <wp:post_name>wadia-baug-warehouse</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>post</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <category domain="category" nicename="projects"><![CDATA[Projects]]></category>
+    <category domain="category" nicename="adaptive-reuse"><![CDATA[Adaptive Reuse]]></category>
+  </item>
+
+  <!-- ============================================================ -->
+  <!-- POST: Project 3 — St. Anne's Chapel                         -->
+  <!-- ============================================================ -->
+  <item>
+    <title>St. Anne's Chapel, Bandstand, Bandra</title>
+    <link>http://localhost/st-annes-chapel/</link>
+    <pubDate>Sat, 28 Mar 2026 09:07:00 +0000</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Brief</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>St. Anne's Chapel was built in 1596 by Portuguese missionaries and had survived four centuries of Bandra history — but not, quite, the combination of neglect and water damage that accumulated during a long dispute over its ownership and management. By 2013, when the diocese finally commissioned a restoration, the roof had partially collapsed and the interior was open to the sky.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This was the first project Concrete &amp; Light undertook as a studio.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What We Found</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The walls — thick rubble-filled lime masonry, rendered externally — were in better condition than the collapsed roof suggested. The interior held extraordinary things: fragments of original fresco beneath the later whitewash, a Portuguese azulejo tile panel behind the altar that was largely intact, and a carved timber reredos that had been removed and stored in a vestry, dusty but undamaged.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What We Did</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The roof was the first priority. New timber rafters were installed using species-matched teak, following the original roof pitch and profile established through documentary research. The roof covering — Mangalore clay tile — was sourced from a traditional manufacturer in Karnataka.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The fresco fragments were stabilised by a specialist conservator from Goa and left as found — partial, ghostly, honest about what time had done. The azulejo panel was cleaned, re-grouted, and reinstated as the focal point of the restored interior. External lime render was fully replaced using a hot lime mix and local sand aggregate. The exterior was left unpainted — the natural buff colour of the fresh lime — a finish that will weather and change over time, as the original building always did.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Result</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>St. Anne's Chapel reopened for services in February 2021, four centuries and some months after it was first built. It is full every Sunday. This project is the reason Concrete &amp; Light exists.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"align":"full","className":"is-style-highlight","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<div class="wp-block-group alignfull is-style-highlight">
+  <!-- wp:pullquote -->
+  <figure class="wp-block-pullquote"><blockquote><p>"You cannot rush a building like this. You can only listen to it, and do what it asks."</p><cite>Roshni Iyer</cite></blockquote></figure>
+  <!-- /wp:pullquote -->
+</div>
+<!-- /wp:group -->
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[The Portuguese-era chapel that started it all — a full structural and fabric restoration of one of Bandra's oldest standing buildings, returning it to active community use after fifteen years of closure.]]></excerpt:encoded>
+    <wp:post_id>22</wp:post_id>
+    <wp:post_date>2026-01-01 09:00:00</wp:post_date>
+    <wp:post_name>st-annes-chapel</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_type>post</wp:post_type>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <category domain="category" nicename="projects"><![CDATA[Projects]]></category>
+    <category domain="category" nicename="community-religious"><![CDATA[Community & Religious]]></category>
+  </item>
+
+</channel>
+</rss>

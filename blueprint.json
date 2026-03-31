@@ -1,0 +1,119 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": ["kitchen-sink"],
+  "features": {
+    "networking": true
+  },
+  "steps": [
+
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Concrete & Light",
+        "blogdescription": "Heritage Architecture & Restoration, Mumbai",
+        "permalink_structure": "/%postname%/",
+        "timezone_string": "Asia/Kolkata",
+        "start_of_week": "1",
+        "default_comment_status": "closed"
+      }
+    },
+
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "bundled",
+        "path": "/my-theme"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org/plugins",
+        "slug": "create-block-theme"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org/plugins",
+        "slug": "wordpress-importer"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "bundled",
+        "path": "/content/concrete-and-light.xml"
+      }
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp option update show_on_front page"
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp option update page_on_front 2"
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp rewrite flush"
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp menu create \"Primary Navigation\""
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp menu item add-post primary-navigation 3 --title=\"About\""
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp menu item add-post primary-navigation 4 --title=\"Services\""
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp menu item add-term primary-navigation category 10 --title=\"Projects\""
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp menu item add-post primary-navigation 5 --title=\"Contact\""
+    },
+
+    {
+      "step": "runWpCliCommand",
+      "command": "wp menu location assign primary-navigation primary"
+    }
+
+  ]
+}

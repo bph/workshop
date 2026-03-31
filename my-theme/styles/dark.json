@@ -1,0 +1,107 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Dark",
+  "styles": {
+    "color": {
+      "background": "var:preset|color|base-dark",
+      "text": "var:preset|color|contrast-dark"
+    },
+    "elements": {
+      "link": {
+        "color": { "text": "var:preset|color|primary-dark" },
+        ":hover": { "color": { "text": "var:preset|color|accent" } }
+      },
+      "h1": { "color": { "text": "var:preset|color|secondary-dark" } },
+      "h2": { "color": { "text": "var:preset|color|secondary-dark" } },
+      "h3": { "color": { "text": "var:preset|color|contrast-dark" } },
+      "h4": { "color": { "text": "var:preset|color|contrast-dark" } },
+      "h5": { "color": { "text": "var:preset|color|primary-dark" } },
+      "h6": { "color": { "text": "var:preset|color|primary-dark" } },
+      "button": {
+        "color": {
+          "background": "var:preset|color|accent",
+          "text": "var:preset|color|base-dark"
+        },
+        ":hover": {
+          "color": {
+            "background": "var:preset|color|primary-dark",
+            "text": "var:preset|color|base-dark"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "core/navigation": {
+        "color": {
+          "background": "var:preset|color|base-dark",
+          "text": "var:preset|color|contrast-dark"
+        },
+        "elements": {
+          "link": {
+            "color": { "text": "var:preset|color|contrast-dark" },
+            ":hover": { "color": { "text": "var:preset|color|accent" } }
+          }
+        }
+      },
+      "core/site-title": {
+        "color": { "text": "var:preset|color|contrast-dark" },
+        "elements": {
+          "link": {
+            "color": { "text": "var:preset|color|contrast-dark" },
+            ":hover": { "color": { "text": "var:preset|color|primary-dark" } }
+          }
+        }
+      },
+      "core/post-title": { "color": { "text": "var:preset|color|secondary-dark" } },
+      "core/cover": {
+        "color": {
+          "background": "var:preset|color|secondary",
+          "text": "var:preset|color|base"
+        }
+      },
+      "core/quote": {
+        "color": {
+          "background": "var:preset|color|base-dark",
+          "text": "var:preset|color|secondary-dark"
+        },
+        "border": { "color": "var:preset|color|primary-dark" }
+      },
+      "core/pullquote": {
+        "color": {
+          "background": "var:preset|color|secondary",
+          "text": "var:preset|color|contrast-dark"
+        },
+        "elements": {
+          "link": { "color": { "text": "var:preset|color|accent-alt" } }
+        }
+      },
+      "core/code": {
+        "color": {
+          "background": "var:preset|color|base-dark",
+          "text": "var:preset|color|accent-alt"
+        }
+      },
+      "core/separator": { "color": { "text": "var:preset|color|primary-dark" } },
+      "core/search": {
+        "elements": {
+          "button": {
+            "color": {
+              "background": "var:preset|color|primary-dark",
+              "text": "var:preset|color|base-dark"
+            }
+          }
+        }
+      },
+      "core/tag-cloud": { "color": { "text": "var:preset|color|primary-dark" } },
+      "core/latest-posts": {
+        "elements": {
+          "link": {
+            "color": { "text": "var:preset|color|secondary-dark" },
+            ":hover": { "color": { "text": "var:preset|color|accent" } }
+          }
+        }
+      }
+    }
+  }
+}
