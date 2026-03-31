@@ -7,7 +7,6 @@
   "login":true,
   "plugins":["create-block-theme","wordpress-importer","gutenberg"],
   "steps": [
-
     {
       "step": "setSiteOptions",
       "options": {
@@ -18,37 +17,16 @@
         "start_of_week": "1",
         "default_comment_status": "closed",
         "show_on_front": "page",
-        "page_on_front": "2"
+        "page_on_front": "7"
       }
     },
 
-    {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "bundled",
-        "path": "/my-theme"
-      },
-      "options": {
-        "activate": true
-      }
-    },
     {
       "step": "importWxr",
       "file": {
         "resource": "bundled",
-        "path": "/content/concrete-and-light.xml"
+        "path": "/concrete-and-light.xml"
       }
-    },
-
-    {
-      "step": "wp-cli",
-      "command": "wp rewrite flush"
-    },
-
-    {
-      "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; wp_insert_post(array('post_type' => 'wp_navigation', 'post_title' => 'Primary Navigation', 'post_status' => 'publish', 'post_content' => '<!-- wp:navigation-link {\"label\":\"About\",\"url\":\"/about/\",\"kind\":\"post-type\",\"isTopLevelLink\":true} /--><!-- wp:navigation-link {\"label\":\"Services\",\"url\":\"/services/\",\"kind\":\"post-type\",\"isTopLevelLink\":true} /--><!-- wp:navigation-link {\"label\":\"Projects\",\"url\":\"/category/projects/\",\"kind\":\"taxonomy\",\"isTopLevelLink\":true} /--><!-- wp:navigation-link {\"label\":\"Contact\",\"url\":\"/contact/\",\"kind\":\"post-type\",\"isTopLevelLink\":true} /-->')); ?>"
     }
-
   ]
 }
