@@ -8,6 +8,10 @@
   "plugins":["create-block-theme","gutenberg"],
   "steps": [
     {
+        "step": "wp-cli",
+        "command": "wp site empty --yes"
+    },
+    {
       "step": "setSiteOptions",
       "options": {
         "blogname": "Concrete & Light",

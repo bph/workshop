@@ -18,7 +18,7 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="theme:./assets/material-concrete.png" alt="AI_IMAGE: Extreme close-up of raw board-formed concrete texture showing wood grain imprints on the surface. Warm directional light raking across the surface accentuating the texture. Tactile, architectural, material study. | photorealistic | square" style="border-radius:0px"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/material-concrete.png" alt="AI_IMAGE: Extreme close-up of raw board-formed concrete texture showing wood grain imprints on the surface. Warm directional light raking across the surface accentuating the texture. Tactile, architectural, material study. | photorealistic | square" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
@@ -32,7 +32,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="theme:./assets/material-glass.png" alt="AI_IMAGE: Close-up of thick architectural glass panel edge with light refracting through it, showing subtle green tint. Set against a dark concrete background. Clean, precise, translucent. | photorealistic | square" style="border-radius:0px"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/material-glass.png" alt="AI_IMAGE: Close-up of thick architectural glass panel edge with light refracting through it, showing subtle green tint. Set against a dark concrete background. Clean, precise, translucent. | photorealistic | square" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
@@ -46,7 +46,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="theme:./assets/material-stone.png" alt="AI_IMAGE: Close-up of honed limestone surface with subtle fossil inclusions, warm ambient lighting revealing the natural veining and color variation. Geological, warm, timeless. | photorealistic | square" style="border-radius:0px"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/material-stone.png" alt="AI_IMAGE: Close-up of honed limestone surface with subtle fossil inclusions, warm ambient lighting revealing the natural veining and color variation. Geological, warm, timeless. | photorealistic | square" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
