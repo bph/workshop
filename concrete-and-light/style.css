@@ -1,0 +1,157 @@
+/*
+Theme Name: Concrete & Light
+Author: WordPress Telex
+Description: A contemplative block theme inspired by raw concrete and diffused light. Pairs old-world Playfair Display headings with ultra-modern Jost body text against a charcoal, limestone, and amber palette.
+Version: 0.1.0
+Requires at least: 6.4
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GPLv2 or later
+Text Domain: concrete-and-light
+Tags: block-theme, full-site-editing, dark, architecture
+
+Concrete & Light — Spaces carved from silence and poured in stone.
+*/
+
+/* Equal-height card columns */
+.equal-cards > .wp-block-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.equal-cards > .wp-block-column > .wp-block-group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.equal-cards .cta-bottom {
+    margin-top: auto;
+    justify-content: center;
+}
+
+/* Remove footer top margin */
+.wp-site-blocks > footer {
+    margin-block-start: 0;
+}
+
+/* Amber underline links on hover for nav */
+.nav-amber-underline a {
+    position: relative;
+    text-decoration: none !important;
+    transition: color 0.4s ease;
+}
+
+.nav-amber-underline a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #C8A96E;
+    transition: width 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nav-amber-underline a:hover::after {
+    width: 100%;
+}
+
+.nav-amber-underline a:hover {
+    color: #C8A96E !important;
+}
+
+/* Hero heading text shadow */
+.hero-text-shadow {
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Amber horizontal rule */
+.amber-rule hr {
+    border-color: #C8A96E !important;
+    opacity: 1;
+}
+
+/* Noise overlay via pseudo-element on body */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+}
+
+/* Fade-in animation for sections */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-section {
+    animation: fadeInUp 0.8s ease-out both;
+}
+
+.fade-in-section:nth-child(2) { animation-delay: 0.1s; }
+.fade-in-section:nth-child(3) { animation-delay: 0.2s; }
+.fade-in-section:nth-child(4) { animation-delay: 0.3s; }
+
+/* Subtle border treatment for project cards */
+.project-card {
+    transition: border-color 0.5s ease, transform 0.4s ease;
+}
+
+.project-card:hover {
+    border-color: #C8A96E !important;
+    transform: translateY(-4px);
+}
+
+/* Grid overlay effect */
+.grid-overlay {
+    position: relative;
+}
+
+.grid-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to right, rgba(232, 224, 208, 0.03) 1px, transparent 1px);
+    background-size: 25% 100%;
+    z-index: 1;
+}
+
+/* Separator styling */
+.wp-block-separator.is-style-wide {
+    border-color: rgba(232, 224, 208, 0.12) !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2B2B2B;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C8A96E;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D4B87A;
+}
