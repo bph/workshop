@@ -1,0 +1,135 @@
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Setting Up Your Workshop Site</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Before the workshop, you'll need to set up a local WordPress site using <strong>WordPress Studio</strong>. Studio is a free, lightweight app that runs WordPress right on your computer — no server needed!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>There are two ways to get started: using the <strong>Studio app interface</strong> or the <strong>Studio CLI</strong> (command line). Pick whichever you're more comfortable with.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Step 1: Install WordPress Studio</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you don't have Studio yet, download it from <a href="https://developer.wordpress.com/studio/">developer.wordpress.com/studio</a> and install it on your machine. The desktop app is available for Mac and Windows. Linux users can use the Studio CLI — install it via npm with <code>npm install -g wp-studio</code>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Step 2: Download the Workshop Files</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Download the workshop bundle from GitHub: <a href="https://github.com/bph/workshop">github.com/bph/workshop</a>. Click the green <strong>Code</strong> button and select <strong>Download ZIP</strong>. Unzip the folder somewhere you can find it easily.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Step 3: Create Your Site</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Choose one of the two options below.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Option A: Using the Studio App</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Open <strong>WordPress Studio</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Click <strong>Add site</strong> and choose <strong>Import from blueprint</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Navigate to the unzipped workshop folder and select <code>blueprint-studioapp.json</code></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Wait for Studio to finish setting everything up — this may take a minute or two</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Your site is ready! Click the site name in Studio to open it in your browser</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Option B: Using the Studio CLI</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you prefer working in the terminal, the Studio CLI is a fast way to get going.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>First, enable the CLI: open <strong>WordPress Studio</strong>, go to <strong>Settings</strong> (or <strong>WordPress Studio → Settings</strong> on Mac), and toggle <strong>Enable Studio CLI</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Open your terminal and <code>cd</code> into the unzipped workshop folder</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Run the following command:</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>studio site create --name "Concrete and Light" --blueprint ./blueprint.json --path ~/Studio/concrete-light</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:list {"ordered":true,"start":4} -->
+<ol start="4" class="wp-block-list"><!-- wp:list-item -->
+<li>Studio will display the site URL, username, and password when it's done</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Open the URL in your browser and you're all set!</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What You'll Get</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Whichever option you choose, your site will come pre-configured with:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>WordPress with PHP 8.2</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>The <strong>Create Block Theme</strong> and <strong>Gutenberg</strong> plugins installed and activated</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Demo content already imported — 5 pages and 3 project posts for a fictional architecture studio called <em>Concrete &amp; Light</em></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A static homepage and pretty permalinks configured</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Need Help?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you run into any issues during setup, don't worry! We'll have time at the start of the workshop to troubleshoot. Just make sure you have WordPress Studio installed beforehand so we can hit the ground running.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>See you at the workshop!</p>
+<!-- /wp:paragraph -->
