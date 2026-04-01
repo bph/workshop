@@ -48,6 +48,16 @@
                     "slug": "deep",
                     "color": "#181614",
                     "name": "Deep"
+                },
+                {
+                    "slug": "border-subtle",
+                    "color": "rgba(232, 224, 208, 0.08)",
+                    "name": "Border Subtle"
+                },
+                {
+                    "slug": "border-muted",
+                    "color": "rgba(232, 224, 208, 0.12)",
+                    "name": "Border Muted"
                 }
             ],
             "gradients": [
@@ -244,10 +254,10 @@
         "blocks": {
             "core/separator": {
                 "color": {
-                    "text": "color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent)"
+                    "text": "var(--wp--preset--color--border-muted)"
                 },
                 "border": {
-                    "color": "color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent)"
+                    "color": "var(--wp--preset--color--border-muted)"
                 }
             },
             "core/quote": {
