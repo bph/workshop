@@ -12,8 +12,8 @@
 <div style="height:55vh" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"level":1,"className":"hero-text-shadow","style":{"typography":{"fontFamily":"'Playfair Display', Georgia, 'Times New Roman', serif","fontSize":"clamp(3.5rem, 9vw, 7rem)","lineHeight":"0.9","fontWeight":"500","letterSpacing":"-0.02em"}}} -->
-<h1 class="wp-block-heading hero-text-shadow" style="font-family:'Playfair Display', Georgia, 'Times New Roman', serif;font-size:clamp(3.5rem, 9vw, 7rem);font-weight:500;letter-spacing:-0.02em;line-height:0.9">Concrete<br>&amp; Light</h1>
+<!-- wp:heading {"level":1,"className":"hero-text-shadow","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"clamp(3.5rem, 9vw, 7rem)","lineHeight":"0.9","fontWeight":"500","letterSpacing":"-0.02em"}}} -->
+<h1 class="wp-block-heading hero-text-shadow" style="font-family:var(--wp--preset--font-family--heading);font-size:clamp(3.5rem, 9vw, 7rem);font-weight:500;letter-spacing:-0.02em;line-height:0.9">Concrete<br>&amp; Light</h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"2.5rem"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -21,8 +21,8 @@
 <hr class="wp-block-separator has-text-color has-accent-color has-alpha-channel-opacity has-accent-background-color has-background amber-rule"/>
 <!-- /wp:separator -->
 
-<!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontFamily":"'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif","fontWeight":"200","fontSize":"clamp(1rem, 1.25vw, 1.25rem)","letterSpacing":"0.06em"}}} -->
-<p class="has-contrast-color has-text-color" style="font-family:'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:clamp(1rem, 1.25vw, 1.25rem);font-weight:200;letter-spacing:0.06em">Spaces carved from silence and poured in stone.</p>
+<!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|body","fontWeight":"200","fontSize":"clamp(1rem, 1.25vw, 1.25rem)","letterSpacing":"0.06em"}}} -->
+<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:clamp(1rem, 1.25vw, 1.25rem);font-weight:200;letter-spacing:0.06em">Spaces carved from silence and poured in stone.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
