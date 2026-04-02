@@ -7,6 +7,7 @@
             "contentSize": "860px",
             "wideSize": "1280px"
         },
+        "useRootPaddingAwareAlignments": true,
         "color": {
             "palette": [
                 {
@@ -285,6 +286,13 @@
             }
         }
     },
+    "customTemplates": [
+        {
+            "name": "page-landing",
+            "title": "Landing Page",
+            "postTypes": ["page"]
+        }
+    ],
     "templateParts": [
         {
             "name": "header",
