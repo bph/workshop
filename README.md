@@ -7,9 +7,10 @@
 
 ```
 workshop/
-├── blueprint.json                  ← WordPress Studio blueprint
-├── my-theme/                       ← The bare-bones block theme (extracted)
-├── my-theme.zip                    ← Theme zip (not tracked in git)
+├── blueprint.json                  ← WordPress Playground CLI blueprint
+├── blueprint-studioapp.json        ← WordPress Studio app blueprint
+├── concrete-and-light/             ← The block theme
+├── concrete-and-light.zip          ← Theme zip for installation
 ├── concrete-and-light.xml          ← Demo content (WXR import)
 └── README.md                       ← This file
 ```
@@ -31,7 +32,7 @@ Studio will automatically:
 - Set the Home page as the static front page
 - Set pretty permalinks (`/post-name/`)
 
-After site creation, install the theme manually from `my-theme.zip`.
+After site creation, install the theme manually from `concrete-and-light.zip`.
 
 ---
 
@@ -55,85 +56,11 @@ After site creation, install the theme manually from `my-theme.zip`.
 
 ---
 
-### Theme structure
-
-```
-my-theme/
-├── style.css
-├── functions.php                   ← Registers block styles + pattern category
-├── theme.json                      ← Full palette, typography, spacing, styles
-├── templates/
-│   ├── index.html                  ← Blog / posts index
-│   ├── single.html                 ← Single post
-│   ├── page.html                   ← Standard page
-│   ├── page-landing.html           ← Landing page (no header/footer)
-│   ├── archive.html                ← Generic archive
-│   └── category-projects.html      ← Portfolio archive (Projects category)
-├── parts/
-│   ├── header.html
-│   └── footer.html
-├── patterns/
-│   ├── hero-default.php
-│   ├── hero-dark-band.php
-│   ├── services-three-columns.php
-│   ├── stats-three-numbers.php
-│   ├── cta-dark-band.php
-│   ├── testimonial-accent-band.php
-│   └── featured-project-split.php
-└── styles/
-    ├── dark.json                   ← Dark colour variation
-    ├── editorial-authority.json    ← Typography: Playfair + Source Serif 4 + DM Sans
-    └── bold-and-clean.json         ← Typography: Syne + Lora
-```
-
----
-
-### Group block style variations
-
-Apply these via the block inspector → Styles panel:
-
-| Label | Class | Background | Text |
-|---|---|---|---|
-| Dark Band | `is-style-dark-band` | Dark Blue | White |
-| Accent Band | `is-style-accent-band` | Dark Purple | White |
-| Highlight | `is-style-highlight` | Yellow | Dark Blue |
-
----
-
-### Colour palette
-
-| Slug | Hex | Role |
-|---|---|---|
-| `base` | `#FFFFFF` | Page background |
-| `primary` | `#006D77` | Teal — links, headings |
-| `secondary` | `#3B0764` | Dark purple — H1/H2 |
-| `contrast` | `#1E3A5F` | Dark blue — body text |
-| `accent` | `#F97316` | Orange — buttons, CTAs |
-| `accent-alt` | `#F5C518` | Yellow — highlights |
-| `base-dark` | `#0D0D1A` | Dark mode background |
-| `primary-dark` | `#3AB8C5` | Teal (dark mode) |
-| `secondary-dark` | `#C084FC` | Purple (dark mode) |
-| `contrast-dark` | `#E2E8F0` | Off-white (dark mode) |
-
----
-
-### Fonts (self-hosted — add files to `/assets/fonts/`)
-
-| Slug | Family | Used for |
-|---|---|---|
-| `heading` | Fraunces | All headings (default) |
-| `body` | Inter | Body text, UI (default) |
-
-Typography style variations swap these for alternative font stacks. Download from Google Fonts and place `.woff2` files in the paths declared in `theme.json`.
-
----
-
 ### Workshop notes
 
 - **Create Block Theme** is pre-installed for exporting theme modifications made in the Site Editor
 - Content is placeholder — students should replace images via the featured image panel on each post/page
-- Images: use [unsplash.com](https://unsplash.com) — search terms are in the `concrete-and-light-content.md` reference document
-- The Projects archive uses `category-projects.html` — WordPress matches it automatically when browsing the Projects category
+- Images: use [WordPress Photos](https://wordpress.org/photos/) or [Openverse](https://openverse.org/) for freely licensed images
 
 ---
 
