@@ -20,7 +20,7 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"4rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/heritage-colaba-exterior.png" alt="AI_IMAGE: Exterior view of a restored colonial-era heritage building in Colaba, Mumbai. Original ornate stonework and arched windows cleaned and preserved, with subtle modern concrete interventions visible at the roofline. Warm golden hour light bathes the facade. Respectful, timeless, layered history. | photorealistic | landscape" style="border-radius:0px"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/heritage-colaba-exterior.png" alt="AI_IMAGE: Exterior view of a restored colonial-era heritage building in Colaba, Mumbai. Original ornate stonework and arched windows cleaned and preserved, with subtle modern concrete interventions visible at the roofline. Warm golden hour light bathes the facade. Respectful, timeless, layered history. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontSize":"1.125rem","lineHeight":"1.75","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"2rem"}}}} -->
@@ -34,7 +34,7 @@
 
 <!-- wp:column {"width":"45%"} -->
 <div class="wp-block-column" style="flex-basis:45%"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/heritage-detail-arch.png" alt="AI_IMAGE: Close-up architectural detail showing the junction where a new raw concrete wall meets an original Victorian-era stone arch inside a heritage building. The contrast between rough board-formed concrete and smooth carved stone is striking. Warm diffused light from above. Precise, respectful, material dialogue. | photorealistic | portrait" style="border-radius:0px"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/heritage-detail-arch.png" alt="AI_IMAGE: Close-up architectural detail showing the junction where a new raw concrete wall meets an original Victorian-era stone arch inside a heritage building. The contrast between rough board-formed concrete and smooth carved stone is striking. Warm diffused light from above. Precise, respectful, material dialogue. | photorealistic | portrait" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"border":{"left":{"color":"var:preset|color|accent","width":"2px","style":"solid"}},"spacing":{"padding":{"left":"1.5rem","top":"1rem","bottom":"1rem"},"margin":{"top":"2rem"}}}} -->
@@ -116,7 +116,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"wide","sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image alignwide size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/heritage-colaba-interior.png" alt="AI_IMAGE: Wide interior view of The Colaba Vault gallery space showing raw concrete intervention walls threading through original Victorian stone arches. Zenithal skylight floods the space with diffused white light. Contemporary art installed on concrete panels. The meeting of old stone and new concrete creates a powerful architectural dialogue. Monumental, contemplative, luminous. | photorealistic | landscape" style="border-radius:0px"/></figure>
+<figure class="wp-block-image alignwide size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/heritage-colaba-interior.png" alt="AI_IMAGE: Wide interior view of The Colaba Vault gallery space showing raw concrete intervention walls threading through original Victorian stone arches. Zenithal skylight floods the space with diffused white light. Contemporary art installed on concrete panels. The meeting of old stone and new concrete creates a powerful architectural dialogue. Monumental, contemplative, luminous. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"4rem"},"margin":{"top":"var:preset|spacing|40"}}}} -->
