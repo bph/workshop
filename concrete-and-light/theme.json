@@ -184,7 +184,13 @@
             "letterSpacing": "0.02em"
         },
         "spacing": {
-            "blockGap": "0"
+            "blockGap": "1.5rem",
+            "padding": {
+                "left": "var(--wp--preset--spacing--50)",
+                "right": "var(--wp--preset--spacing--50)",
+                "top": "var(--wp--preset--spacing--50)",
+                "bottom": "var(--wp--preset--spacing--50)"
+            }
         },
         "elements": {
             "heading": {
