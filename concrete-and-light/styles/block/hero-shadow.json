@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "hero-shadow",
+	"title": "Hero Shadow",
+	"blockTypes": ["core/heading"],
+	"styles": {
+		"css": "text-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);"
+	}
+}

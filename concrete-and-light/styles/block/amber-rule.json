@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "amber-rule",
+	"title": "Amber Rule",
+	"blockTypes": ["core/separator"],
+	"styles": {
+		"border": {
+			"color": "var:preset|color|accent"
+		},
+		"css": "& hr { opacity: 1; }"
+	}
+}

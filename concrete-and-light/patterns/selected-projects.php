@@ -10,25 +10,25 @@
 <div class="wp-block-group alignfull has-base-alt-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
 <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"accent","style":{"typography":{"fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.2em","textTransform":"uppercase","fontSize":"0.7rem"},"spacing":{"margin":{"bottom":"1rem"}}}} -->
-<h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Selected Projects</h4>
+<h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase"><?php echo esc_html__( 'Selected Projects', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}}} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Recent works</h2>
+<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Recent works', 'concrete-and-light' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"accent","borderColor":"accent","className":"is-style-outline","style":{"typography":{"fontSize":"0.75rem","letterSpacing":"0.15em","textTransform":"uppercase","fontFamily":"var:preset|font-family|body","fontWeight":"300"},"border":{"width":"1px"}}} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-accent-color has-text-color has-border-color has-accent-border-color has-custom-font-size wp-element-button" style="border-width:1px;font-family:var(--wp--preset--font-family--body);font-size:0.75rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">View all projects</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-accent-color has-text-color has-border-color has-accent-border-color has-custom-font-size wp-element-button" style="border-width:1px;font-family:var(--wp--preset--font-family--body);font-size:0.75rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html__( 'View all projects', 'concrete-and-light' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:columns {"align":"wide","className":"equal-cards","style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
-<div class="wp-block-columns alignwide equal-cards"><!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"project-card","style":{"border":{"width":"1px","color":"color-mix(in srgb, var:preset|color|contrast 8%, transparent)"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
-<div class="wp-block-group project-card has-border-color" style="border-color:color-mix(in srgb, var(--wp--preset--color--contrast) 8%, transparent);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
+<!-- wp:columns {"align":"wide","className":"is-style-equal-cards","style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
+<div class="wp-block-columns alignwide is-style-equal-cards"><!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
+<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/project-bandra-cultural.png" alt="AI_IMAGE: A modern concrete cultural center in Bandra, Mumbai, with dramatic angular concrete volumes and deep recessed openings framing views of the Arabian Sea. Lush tropical vegetation creeps along the base. Board-formed concrete with warm patina under golden hour Mumbai light. Monumental yet intimate. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
@@ -42,15 +42,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
-<p class="has-muted-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.8125rem;font-weight:200;line-height:1.65">A 2,800 sqm cultural pavilion on Bandra's waterfront. Stepped concrete terraces open toward the Arabian Sea, channeling monsoon breezes through deep-set corridors.</p>
+<p class="has-muted-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.8125rem;font-weight:200;line-height:1.65"><?php echo esc_html__( 'A 2,800 sqm cultural pavilion on Bandra\'s waterfront. Stepped concrete terraces open toward the Arabian Sea, channeling monsoon breezes through deep-set corridors.', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"project-card","style":{"border":{"width":"1px","color":"color-mix(in srgb, var:preset|color|contrast 8%, transparent)"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
-<div class="wp-block-group project-card has-border-color" style="border-color:color-mix(in srgb, var(--wp--preset--color--contrast) 8%, transparent);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
+<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/project-worli-tower.png" alt="AI_IMAGE: A sleek residential concrete tower rising above the Mumbai skyline in Worli, photographed at dusk. The facade features rhythmic deep concrete louvres and floor-to-ceiling glass revealing warm interior light. The Bandra-Worli Sea Link is visible in the background. Luxury, vertical, luminous. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
@@ -64,15 +64,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
-<p class="has-muted-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.8125rem;font-weight:200;line-height:1.65">A 32-storey luxury residence in Worli. Deep concrete louvres modulate the equatorial sun while framing panoramic views of the sea link and the Mumbai harbour.</p>
+<p class="has-muted-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.8125rem;font-weight:200;line-height:1.65"><?php echo esc_html__( 'A 32-storey luxury residence in Worli. Deep concrete louvres modulate the equatorial sun while framing panoramic views of the sea link and the Mumbai harbour.', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"project-card","style":{"border":{"width":"1px","color":"color-mix(in srgb, var:preset|color|contrast 8%, transparent)"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
-<div class="wp-block-group project-card has-border-color" style="border-color:color-mix(in srgb, var(--wp--preset--color--contrast) 8%, transparent);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
+<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/project-colaba-gallery.png" alt="AI_IMAGE: A contemporary art gallery carved into a restored heritage building in Colaba, Mumbai. Raw exposed concrete intervention walls contrast with original colonial-era stone arches. Diffused zenithal light from skylights illuminates a vast white exhibition hall. Heritage meets brutalism. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
@@ -86,7 +86,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
-<p class="has-muted-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.8125rem;font-weight:200;line-height:1.65">A heritage restoration and gallery insertion in South Mumbai. New concrete volumes thread through colonial-era stone arches, creating a dialogue between centuries.</p>
+<p class="has-muted-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.8125rem;font-weight:200;line-height:1.65"><?php echo esc_html__( 'A heritage restoration and gallery insertion in South Mumbai. New concrete volumes thread through colonial-era stone arches, creating a dialogue between centuries.', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

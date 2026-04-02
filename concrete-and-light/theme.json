@@ -84,12 +84,30 @@
                 {
                     "fontFamily": "'Playfair Display', Georgia, 'Times New Roman', serif",
                     "slug": "heading",
-                    "name": "Playfair Display"
+                    "name": "Playfair Display",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "400 700",
+                            "fontStyle": "normal",
+                            "fontDisplay": "swap",
+                            "src": ["file:./assets/fonts/playfair-display-latin.woff2"]
+                        }
+                    ]
                 },
                 {
                     "fontFamily": "'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif",
                     "slug": "body",
-                    "name": "Jost"
+                    "name": "Jost",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Jost",
+                            "fontWeight": "200 500",
+                            "fontStyle": "normal",
+                            "fontDisplay": "swap",
+                            "src": ["file:./assets/fonts/jost-latin.woff2"]
+                        }
+                    ]
                 }
             ],
             "fontSizes": [

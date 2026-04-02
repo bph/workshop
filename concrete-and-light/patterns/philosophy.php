@@ -10,21 +10,21 @@
 <div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"5rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"35%"} -->
 <div class="wp-block-column" style="flex-basis:35%"><!-- wp:heading {"level":4,"textColor":"accent","style":{"typography":{"fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.2em","textTransform":"uppercase","fontSize":"0.7rem"},"spacing":{"margin":{"bottom":"1.5rem"}}}} -->
-<h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Philosophy</h4>
+<h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase"><?php echo esc_html__( 'Philosophy', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}}} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Architecture as an act of listening</h2>
+<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Architecture as an act of listening', 'concrete-and-light' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"65%"} -->
 <div class="wp-block-column" style="flex-basis:65%"><!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontSize":"1.125rem","lineHeight":"1.75","fontFamily":"var:preset|font-family|body","fontWeight":"200"}}} -->
-<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:1.125rem;font-weight:200;line-height:1.75">We believe that great architecture begins with restraint. Each project is an investigation into how light, material, and human presence can coexist in honest relationship. We do not decorate. We reveal.</p>
+<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:1.125rem;font-weight:200;line-height:1.75"><?php echo esc_html__( 'We believe that great architecture begins with restraint. Each project is an investigation into how light, material, and human presence can coexist in honest relationship. We do not decorate. We reveal.', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontSize":"1.125rem","lineHeight":"1.75","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"1.5rem"}}}} -->
-<p class="has-contrast-color has-text-color" style="margin-top:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:1.125rem;font-weight:200;line-height:1.75">Our practice spans private residences, cultural institutions, and public spaces across three continents. What unites them is a commitment to material truth and spatial generosity — the conviction that a building should give more than it takes.</p>
+<p class="has-contrast-color has-text-color" style="margin-top:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:1.125rem;font-weight:200;line-height:1.75"><?php echo esc_html__( 'Our practice spans private residences, cultural institutions, and public spaces across three continents. What unites them is a commitment to material truth and spatial generosity — the conviction that a building should give more than it takes.', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"2.5rem"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -34,7 +34,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.7rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.15em","textTransform":"uppercase"}}} -->
-<p class="has-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Years of practice</p>
+<p class="has-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html__( 'Years of practice', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -44,7 +44,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.7rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.15em","textTransform":"uppercase"}}} -->
-<p class="has-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Completed works</p>
+<p class="has-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html__( 'Completed works', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -54,7 +54,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.7rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.15em","textTransform":"uppercase"}}} -->
-<p class="has-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Countries</p>
+<p class="has-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html__( 'Countries', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

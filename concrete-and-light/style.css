@@ -14,22 +14,18 @@ Concrete & Light — Spaces carved from silence and poured in stone.
 */
 
 /* Equal-height card columns */
-.equal-cards > .wp-block-column {
+.is-style-equal-cards > .wp-block-column {
     display: flex;
     flex-direction: column;
     flex-grow: 0;
 }
 
-.equal-cards > .wp-block-column > .wp-block-group {
+.is-style-equal-cards > .wp-block-column > .wp-block-group {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
-.equal-cards .cta-bottom {
-    margin-top: auto;
-    justify-content: center;
-}
 
 /* Remove footer top margin */
 .wp-site-blocks > footer {
@@ -37,41 +33,31 @@ Concrete & Light — Spaces carved from silence and poured in stone.
 }
 
 /* Amber underline links on hover for nav */
-.nav-amber-underline a {
+.is-style-amber-underline a {
     position: relative;
     text-decoration: none !important;
     transition: color 0.4s ease;
 }
 
-.nav-amber-underline a::after {
+.is-style-amber-underline a::after {
     content: '';
     position: absolute;
     bottom: -4px;
     left: 0;
     width: 0;
     height: 1px;
-    background-color: #C8A96E;
+    background-color: var(--wp--preset--color--accent);
     transition: width 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.nav-amber-underline a:hover::after {
+.is-style-amber-underline a:hover::after {
     width: 100%;
 }
 
-.nav-amber-underline a:hover {
-    color: #C8A96E !important;
+.is-style-amber-underline a:hover {
+    color: var(--wp--preset--color--accent) !important;
 }
 
-/* Hero heading text shadow */
-.hero-text-shadow {
-    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-}
-
-/* Amber horizontal rule */
-.amber-rule hr {
-    border-color: #C8A96E !important;
-    opacity: 1;
-}
 
 /* Noise overlay via pseudo-element on body */
 body::before {
@@ -88,54 +74,12 @@ body::before {
     mix-blend-mode: overlay;
 }
 
-/* Fade-in animation for sections */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
-.fade-in-section {
-    animation: fadeInUp 0.8s ease-out both;
-}
 
-.fade-in-section:nth-child(2) { animation-delay: 0.1s; }
-.fade-in-section:nth-child(3) { animation-delay: 0.2s; }
-.fade-in-section:nth-child(4) { animation-delay: 0.3s; }
-
-/* Subtle border treatment for project cards */
-.project-card {
-    transition: border-color 0.5s ease, transform 0.4s ease;
-}
-
-.project-card:hover {
-    border-color: #C8A96E !important;
-    transform: translateY(-4px);
-}
-
-/* Grid overlay effect */
-.grid-overlay {
-    position: relative;
-}
-
-.grid-overlay::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background-image: linear-gradient(to right, rgba(232, 224, 208, 0.03) 1px, transparent 1px);
-    background-size: 25% 100%;
-    z-index: 1;
-}
 
 /* Separator styling */
 .wp-block-separator.is-style-wide {
-    border-color: rgba(232, 224, 208, 0.12) !important;
+    border-color: var(--wp--preset--color--border-muted) !important;
 }
 
 /* Custom scrollbar */
@@ -144,11 +88,11 @@ body::before {
 }
 
 ::-webkit-scrollbar-track {
-    background: #2B2B2B;
+    background: var(--wp--preset--color--base);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #C8A96E;
+    background: var(--wp--preset--color--accent);
     border-radius: 3px;
 }
 
