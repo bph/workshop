@@ -13,8 +13,8 @@
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase"><?php echo esc_html__( 'Philosophy', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}}} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Architecture as an act of listening', 'concrete-and-light' ); ?></h2>
+<!-- wp:heading {"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Architecture as an act of listening', 'concrete-and-light' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

@@ -11,8 +11,8 @@
 <h4 class="wp-block-heading alignwide has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase"><?php echo esc_html__( 'Materials', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Honest substance', 'concrete-and-light' ); ?></h2>
+<!-- wp:heading {"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Honest substance', 'concrete-and-light' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
@@ -21,8 +21,8 @@
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/material-concrete.png" alt="AI_IMAGE: Extreme close-up of raw board-formed concrete texture showing wood grain imprints on the surface. Warm directional light raking across the surface accentuating the texture. Tactile, architectural, material study. | photorealistic | square" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500"><?php echo esc_html__( 'Board-formed Concrete', 'concrete-and-light' ); ?></h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500"><?php echo esc_html__( 'Board-formed Concrete', 'concrete-and-light' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
@@ -35,8 +35,8 @@
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/material-glass.png" alt="AI_IMAGE: Close-up of thick architectural glass panel edge with light refracting through it, showing subtle green tint. Set against a dark concrete background. Clean, precise, translucent. | photorealistic | square" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500"><?php echo esc_html__( 'Structural Glass', 'concrete-and-light' ); ?></h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500"><?php echo esc_html__( 'Structural Glass', 'concrete-and-light' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
@@ -49,8 +49,8 @@
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/material-stone.png" alt="AI_IMAGE: Close-up of honed limestone surface with subtle fossil inclusions, warm ambient lighting revealing the natural veining and color variation. Geological, warm, timeless. | photorealistic | square" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500"><?php echo esc_html__( 'Natural Stone', 'concrete-and-light' ); ?></h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500"><?php echo esc_html__( 'Natural Stone', 'concrete-and-light' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->

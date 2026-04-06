@@ -6,15 +6,15 @@
  * Description: Three-column grid of featured project cards with images and descriptions.
  */
 ?>
-<!-- wp:group {"backgroundColor":"base-alt","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group alignfull has-base-alt-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+<!-- wp:group {"backgroundColor":"deep","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group alignfull has-deep-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
 <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"accent","style":{"typography":{"fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.2em","textTransform":"uppercase","fontSize":"0.7rem"},"spacing":{"margin":{"bottom":"1rem"}}}} -->
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase"><?php echo esc_html__( 'Selected Projects', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}}} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Recent works', 'concrete-and-light' ); ?></h2>
+<!-- wp:heading {"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15"><?php echo esc_html__( 'Recent works', 'concrete-and-light' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -37,8 +37,8 @@
 <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Cultural / Mumbai / 2024</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Bandra Arts Pavilion</h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Bandra Arts Pavilion</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
@@ -59,8 +59,8 @@
 <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Residential / Mumbai / 2024</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Worli Horizon Tower</h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Worli Horizon Tower</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
@@ -81,8 +81,8 @@
 <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Gallery / Mumbai / 2023</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">The Colaba Vault</h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">The Colaba Vault</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}}} -->

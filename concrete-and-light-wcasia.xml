@@ -1083,8 +1083,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Philosophy</h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}},"textColor":"contrast-alt"} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Architecture as an act of listening</h2>
+<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}},"textColor":"contrast"} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Architecture as an act of listening</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -1161,15 +1161,15 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"categories":["posts","featured"],"patternName":"concrete-and-light/selected-projects","name":"Selected Projects"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0"}}},"backgroundColor":"base-alt","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group alignfull has-base-alt-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+<!-- wp:group {"metadata":{"categories":["posts","featured"],"patternName":"concrete-and-light/selected-projects","name":"Selected Projects"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0"}}},"backgroundColor":"deep","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group alignfull has-deep-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
 <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.2em","textTransform":"uppercase","fontSize":"0.7rem"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"accent"} -->
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Selected Projects</h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}},"textColor":"contrast-alt"} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Recent works</h2>
+<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"}},"textColor":"contrast"} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Recent works</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -1192,8 +1192,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Cultural / Mumbai / 2024</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Bandra Arts Pavilion</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Bandra Arts Pavilion</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} -->
@@ -1214,8 +1214,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Residential / Mumbai / 2024</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Worli Horizon Tower</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">Worli Horizon Tower</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} -->
@@ -1236,8 +1236,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.15em;text-transform:uppercase">Gallery / Mumbai / 2023</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">The Colaba Vault</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:0.5rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">The Colaba Vault</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} -->
@@ -1254,8 +1254,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <h4 class="wp-block-heading alignwide has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Materials</h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"contrast-alt"} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Honest substance</h2>
+<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"contrast"} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">Honest substance</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
@@ -1264,8 +1264,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <figure class="wp-block-image size-full has-custom-border"><img src="https://raw.githubusercontent.com/bph/workshop/main/media/material-concrete.png" alt="" class="wp-image-63" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500">Board-formed Concrete</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500">Board-formed Concrete</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} -->
@@ -1278,8 +1278,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <figure class="wp-block-image size-full has-custom-border"><img src="https://raw.githubusercontent.com/bph/workshop/main/media/material-glass.png" alt="" class="wp-image-62" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500">Structural Glass</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500">Structural Glass</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} -->
@@ -1292,8 +1292,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <figure class="wp-block-image size-full has-custom-border"><img src="https://raw.githubusercontent.com/bph/workshop/main/media/material-stone.png" alt="" class="wp-image-61" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500">Natural Stone</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-top:1.25rem;font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500">Natural Stone</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} -->
@@ -1347,15 +1347,15 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Voices from Mumbai</h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"contrast-alt"} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">What our clients say</h2>
+<!-- wp:heading {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"2.25rem","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"contrast"} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500;line-height:1.15">What our clients say</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"left":{"color":"var:preset|color|accent","width":"2px","style":"solid"}},"spacing":{"padding":{"left":"1.5rem","top":"0.5rem","bottom":"0.5rem"}}}} -->
-<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:1.5rem"><!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.6"}},"textColor":"contrast-alt"} -->
-<p class="has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.6">Concrete &amp; Light understood what Mumbai demands of its architecture — resilience against the monsoon, grace under the tropical sun. Our tower in Worli breathes with the city.</p>
+<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:1.5rem"><!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.6"}},"textColor":"contrast"} -->
+<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.6">Concrete &amp; Light understood what Mumbai demands of its architecture — resilience against the monsoon, grace under the tropical sun. Our tower in Worli breathes with the city.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.1em","textTransform":"uppercase"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"muted"} -->
@@ -1366,8 +1366,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"left":{"color":"var:preset|color|accent","width":"2px","style":"solid"}},"spacing":{"padding":{"left":"1.5rem","top":"0.5rem","bottom":"0.5rem"}}}} -->
-<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:1.5rem"><!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.6"}},"textColor":"contrast-alt"} -->
-<p class="has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.6">They listened to the heritage of Colaba before drawing a single line. The result is a gallery where Victorian stone and raw concrete exist in a conversation that honours both epochs.</p>
+<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:1.5rem"><!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.6"}},"textColor":"contrast"} -->
+<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.6">They listened to the heritage of Colaba before drawing a single line. The result is a gallery where Victorian stone and raw concrete exist in a conversation that honours both epochs.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.1em","textTransform":"uppercase"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"muted"} -->
@@ -1378,8 +1378,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"left":{"color":"var:preset|color|accent","width":"2px","style":"solid"}},"spacing":{"padding":{"left":"1.5rem","top":"0.5rem","bottom":"0.5rem"}}}} -->
-<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:1.5rem"><!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.6"}},"textColor":"contrast-alt"} -->
-<p class="has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.6">The Bandra Pavilion has become the cultural heartbeat of our neighbourhood. People gather on the concrete terraces at sunset as naturally as the tide meets the shore.</p>
+<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:1.5rem"><!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.6"}},"textColor":"contrast"} -->
+<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.6">The Bandra Pavilion has become the cultural heartbeat of our neighbourhood. People gather on the concrete terraces at sunset as naturally as the tide meets the shore.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.1em","textTransform":"uppercase"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"muted"} -->
@@ -1689,8 +1689,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8895/contact/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:cover {"overlayColor":"contrast-alt","isUserOverlayColor":true,"minHeight":150,"isDark":false,"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light" style="min-height:150px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-alt-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:gallery {"columns":5,"linkTo":"none","aspectRatio":"1"} -->
+		<content:encoded><![CDATA[<!-- wp:cover {"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":150,"isDark":false,"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light" style="min-height:150px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:gallery {"columns":5,"linkTo":"none","aspectRatio":"1"} -->
 <figure class="wp-block-gallery has-nested-images columns-5 is-cropped"><!-- wp:image {"id":68,"aspectRatio":"1","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="http://localhost:8895/wp-content/uploads/2026/04/design-preview-3-hero-1024x559.png" alt="" class="wp-image-68" style="aspect-ratio:1"/></figure>
 <!-- /wp:image -->
@@ -3009,8 +3009,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|40","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}},"border":{"top":{"color":"var:preset|color|border-subtle","width":"1px"}}},"backgroundColor":"deep","layout":{"type":"constrained","wideSize":"1280px"}} -->
 <div class="wp-block-group alignfull has-deep-background-color has-background" style="border-top-color:var(--wp--preset--color--border-subtle);border-top-width:1px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"4rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.75rem","fontWeight":"500"}},"textColor":"contrast-alt"} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.75rem;font-weight:500">Concrete &amp; Light</h3>
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.75rem","fontWeight":"500"}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.75rem;font-weight:500">Concrete &amp; Light</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"muted"} -->
@@ -3031,7 +3031,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.25rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:400;letter-spacing:0.15em;text-transform:uppercase">Connect</h4>
 <!-- /wp:heading -->
 
-<!-- wp:social-links {"iconColor":"contrast-alt","iconColorValue":"#F5F0E8","iconBackgroundColor":"accent","iconBackgroundColorValue":"#C8A96E","className":"is-style-pill-shape","layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#F5F0E8","iconBackgroundColor":"accent","iconBackgroundColorValue":"#C8A96E","className":"is-style-pill-shape","layout":{"type":"flex","orientation":"vertical"}} -->
 <ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-pill-shape"><!-- wp:social-link {"url":"https://instagram.com/concrete-light","service":"instagram"} /-->
 
 <!-- wp:social-link {"url":"https://linkedin.com/conrete-light","service":"linkedin"} /--></ul>
@@ -3135,9 +3135,9 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8895/header/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"2.5rem","bottom":"2rem","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}},"border":{"bottom":{"color":"var:preset|color|border-muted","width":"1px"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group alignfull has-base-background-color has-background" style="border-bottom-color:var(--wp--preset--color--border-muted);border-bottom-width:1px;margin-top:0;margin-bottom:0;padding-top:2.5rem;padding-right:var(--wp--preset--spacing--50);padding-bottom:2rem;padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-<div class="wp-block-group alignwide"><!-- wp:site-title {"style":{"typography":{"fontWeight":"300","letterSpacing":"0.25em","textTransform":"uppercase","fontSize":"0.8rem"},"elements":{"link":{"color":{"text":"var:preset|color|contrast-alt"},":hover":{"color":{"text":"var:preset|color|accent"}}}}},"fontFamily":"body"} /-->
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"2.5rem","bottom":"2rem","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}},"border":{"bottom":{"color":"var:preset|color|border-subtle","width":"1px"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="border-bottom-color:var(--wp--preset--color--border-subtle);border-bottom-width:1px;margin-top:0;margin-bottom:0;padding-top:2.5rem;padding-right:var(--wp--preset--spacing--50);padding-bottom:2rem;padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"style":{"typography":{"fontWeight":"300","letterSpacing":"0.25em","textTransform":"uppercase","fontSize":"0.8rem"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent"}}}}},"fontFamily":"body"} /-->
 
 <!-- wp:navigation {"ref":104,"textColor":"contrast","overlayBackgroundColor":"base","overlayTextColor":"contrast","className":"is-style-amber-underline","style":{"typography":{"fontWeight":"200","letterSpacing":"0.15em","textTransform":"uppercase","fontSize":"0.75rem"},"spacing":{"blockGap":"3rem"}},"fontFamily":"body","layout":{"type":"flex","orientation":"horizontal"}} /--></div>
 <!-- /wp:group --></div>
@@ -3326,13 +3326,13 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase">Archive</h4>
 <!-- /wp:heading -->
 
-<!-- wp:query-title {"type":"archive","showPrefix":false,"style":{"typography":{"fontSize":"clamp(2rem, 4vw, 3rem)","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"contrast-alt","fontFamily":"heading"} /-->
+<!-- wp:query-title {"type":"archive","showPrefix":false,"style":{"typography":{"fontSize":"clamp(2rem, 4vw, 3rem)","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"contrast","fontFamily":"heading"} /-->
 
 <!-- wp:term-description {"style":{"typography":{"fontSize":"1rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"muted"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0"}}},"backgroundColor":"base-alt","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group alignfull has-base-alt-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0"}}},"backgroundColor":"deep","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group alignfull has-deep-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide"} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
 <div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"0px"},"spacing":{"margin":{"bottom":"0"}}}} /-->
@@ -3340,7 +3340,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- wp:group {"style":{"spacing":{"padding":{"left":"1.5rem","right":"1.5rem","top":"1.25rem"},"blockGap":"0.5rem"}}} -->
 <div class="wp-block-group" style="padding-top:1.25rem;padding-right:1.5rem;padding-left:1.5rem"><!-- wp:post-date {"datetime":"2026-04-03T10:26:07.692Z","style":{"typography":{"fontSize":"0.7rem","fontWeight":"300","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"accent","fontFamily":"body"} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.25rem"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast-alt"},":hover":{"color":{"text":"var:preset|color|accent"}}}}},"fontFamily":"heading"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"},"spacing":{"margin":{"top":"0.25rem"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent"}}}}},"fontFamily":"heading"} /-->
 
 <!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":false,"excerptLength":24,"style":{"typography":{"fontSize":"0.8125rem","lineHeight":"1.65","fontFamily":"var:preset|font-family|body","fontWeight":"200"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"muted"} /--></div>
 <!-- /wp:group --></div>

@@ -13,8 +13,8 @@
 <h4 class="wp-block-heading has-accent-color has-text-color" style="margin-bottom:1.5rem;font-family:var(--wp--preset--font-family--body);font-size:0.7rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase"><?php echo esc_html__( 'Heritage Practice', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"clamp(2rem, 4vw, 3rem)","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
-<h2 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--40);font-family:var(--wp--preset--font-family--heading);font-size:clamp(2rem, 4vw, 3rem);font-weight:500;line-height:1.15"><?php echo esc_html__( 'Restoration & Adaptive Reuse', 'concrete-and-light' ); ?></h2>
+<!-- wp:heading {"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"clamp(2rem, 4vw, 3rem)","fontWeight":"500","lineHeight":"1.15"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+<h2 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--40);font-family:var(--wp--preset--font-family--heading);font-size:clamp(2rem, 4vw, 3rem);font-weight:500;line-height:1.15"><?php echo esc_html__( 'Restoration & Adaptive Reuse', 'concrete-and-light' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"4rem"}}}} -->
@@ -38,8 +38,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"border":{"left":{"color":"var:preset|color|accent","width":"2px","style":"solid"}},"spacing":{"padding":{"left":"1.5rem","top":"1rem","bottom":"1rem"},"margin":{"top":"2rem"}}}} -->
-<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;margin-top:2rem;padding-top:1rem;padding-bottom:1rem;padding-left:1.5rem"><!-- wp:paragraph {"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.5"}}} -->
-<p class="has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.5"><?php echo esc_html__( 'A restored building should reveal its full history — not erase half of it.', 'concrete-and-light' ); ?></p>
+<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent);border-left-style:solid;border-left-width:2px;margin-top:2rem;padding-top:1rem;padding-bottom:1rem;padding-left:1.5rem"><!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontStyle":"italic","fontSize":"1.125rem","lineHeight":"1.5"}}} -->
+<p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.125rem;font-style:italic;line-height:1.5"><?php echo esc_html__( 'A restored building should reveal its full history — not erase half of it.', 'concrete-and-light' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.8125rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.1em","textTransform":"uppercase"},"spacing":{"margin":{"top":"1rem"}}}} -->
@@ -53,8 +53,8 @@
 <hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.75rem","fontWeight":"500","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--40);font-family:var(--wp--preset--font-family--heading);font-size:1.75rem;font-weight:500;line-height:1.2"><?php echo esc_html__( 'Our Restoration Process', 'concrete-and-light' ); ?></h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.75rem","fontWeight":"500","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--40);font-family:var(--wp--preset--font-family--heading);font-size:1.75rem;font-weight:500;line-height:1.2"><?php echo esc_html__( 'Our Restoration Process', 'concrete-and-light' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"align":"wide","className":"is-style-equal-cards","style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
@@ -64,8 +64,8 @@
 <p class="has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500">01</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":4,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.25rem","fontWeight":"500"},"spacing":{"margin":{"bottom":"0.75rem"}}}} -->
-<h4 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:0.75rem;font-family:var(--wp--preset--font-family--heading);font-size:1.25rem;font-weight:500"><?php echo esc_html__( 'Archaeological Survey', 'concrete-and-light' ); ?></h4>
+<!-- wp:heading {"level":4,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.25rem","fontWeight":"500"},"spacing":{"margin":{"bottom":"0.75rem"}}}} -->
+<h4 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:0.75rem;font-family:var(--wp--preset--font-family--heading);font-size:1.25rem;font-weight:500"><?php echo esc_html__( 'Archaeological Survey', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"}}} -->
@@ -80,8 +80,8 @@
 <p class="has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500">02</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":4,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.25rem","fontWeight":"500"},"spacing":{"margin":{"bottom":"0.75rem"}}}} -->
-<h4 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:0.75rem;font-family:var(--wp--preset--font-family--heading);font-size:1.25rem;font-weight:500"><?php echo esc_html__( 'Sensitive Intervention', 'concrete-and-light' ); ?></h4>
+<!-- wp:heading {"level":4,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.25rem","fontWeight":"500"},"spacing":{"margin":{"bottom":"0.75rem"}}}} -->
+<h4 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:0.75rem;font-family:var(--wp--preset--font-family--heading);font-size:1.25rem;font-weight:500"><?php echo esc_html__( 'Sensitive Intervention', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"}}} -->
@@ -96,8 +96,8 @@
 <p class="has-accent-color has-text-color" style="margin-bottom:1rem;font-family:var(--wp--preset--font-family--heading);font-size:2.25rem;font-weight:500">03</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":4,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.25rem","fontWeight":"500"},"spacing":{"margin":{"bottom":"0.75rem"}}}} -->
-<h4 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:0.75rem;font-family:var(--wp--preset--font-family--heading);font-size:1.25rem;font-weight:500"><?php echo esc_html__( 'Living Continuity', 'concrete-and-light' ); ?></h4>
+<!-- wp:heading {"level":4,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.25rem","fontWeight":"500"},"spacing":{"margin":{"bottom":"0.75rem"}}}} -->
+<h4 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:0.75rem;font-family:var(--wp--preset--font-family--heading);font-size:1.25rem;font-weight:500"><?php echo esc_html__( 'Living Continuity', 'concrete-and-light' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","style":{"typography":{"fontSize":"0.875rem","lineHeight":"1.7","fontFamily":"var:preset|font-family|body","fontWeight":"200"}}} -->
@@ -111,8 +111,8 @@
 <hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.75rem","fontWeight":"500","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
-<h3 class="wp-block-heading has-contrast-alt-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--40);font-family:var(--wp--preset--font-family--heading);font-size:1.75rem;font-weight:500;line-height:1.2"><?php echo esc_html__( 'Featured Heritage Project', 'concrete-and-light' ); ?></h3>
+<!-- wp:heading {"level":3,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.75rem","fontWeight":"500","lineHeight":"1.2"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+<h3 class="wp-block-heading has-contrast-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--40);font-family:var(--wp--preset--font-family--heading);font-size:1.75rem;font-weight:500;line-height:1.2"><?php echo esc_html__( 'Featured Heritage Project', 'concrete-and-light' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"wide","sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
@@ -121,8 +121,8 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"4rem"},"margin":{"top":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--40)"><!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":4,"textColor":"contrast-alt","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"}}} -->
-<h4 class="wp-block-heading has-contrast-alt-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">The Colaba Vault</h4>
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":4,"textColor":"contrast","style":{"typography":{"fontFamily":"var:preset|font-family|heading","fontSize":"1.375rem","fontWeight":"500","lineHeight":"1.25"}}} -->
+<h4 class="wp-block-heading has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--heading);font-size:1.375rem;font-weight:500;line-height:1.25">The Colaba Vault</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"accent","style":{"typography":{"fontSize":"0.7rem","fontFamily":"var:preset|font-family|body","fontWeight":"300","letterSpacing":"0.15em","textTransform":"uppercase"},"spacing":{"margin":{"top":"0.5rem"}}}} -->
