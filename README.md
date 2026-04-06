@@ -11,7 +11,8 @@ workshop/
 ├── blueprint-studioapp.json        ← WordPress Studio app blueprint
 ├── concrete-and-light/             ← The block theme
 ├── concrete-and-light.zip          ← Theme zip for installation
-├── concrete-and-light.xml          ← Demo content (WXR import)
+├── concrete-and-light-wcasia.xml   ← Demo content (WXR import)
+├── media/                          ← Images referenced by demo content
 └── README.md                       ← This file
 ```
 
@@ -22,7 +23,13 @@ workshop/
 From the workshop folder, run:
 
 ```bash
-studio site create --name "Concrete and Light" --blueprint ./blueprint.json --path ~/Studio/concrete-light
+studio site create --name "Concrete and Light" --blueprint ./blueprint-studioapp.json --path ~/Studio/concrete-light
+```
+
+### How to use with Playground CLI
+
+```bash
+npx @wp-playground/cli server --blueprint=./blueprint.json --blueprint-may-read-adjacent-files
 ```
 
 Studio will automatically:
