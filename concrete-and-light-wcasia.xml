@@ -1391,8 +1391,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","className":"is-style-dark-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}}} -->
-<div class="wp-block-group alignfull is-style-dark-band" style="padding-top:var(--wp--preset--spacing--2-xl);padding-right:var(--wp--preset--spacing--md);padding-bottom:var(--wp--preset--spacing--2-xl);padding-left:var(--wp--preset--spacing--md)"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
+<!-- wp:group {"align":"full","className":"is-style-dark-band","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-group alignfull is-style-dark-band" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
 <h2 class="wp-block-heading has-text-align-center">Your Building Has a Story Worth Keeping</h2>
 <!-- /wp:heading -->
 
