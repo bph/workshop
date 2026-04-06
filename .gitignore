@@ -1,3 +1,4 @@
 .claude/
+.DS_Store
 from-ai-to-theme*.md
 scripts/
