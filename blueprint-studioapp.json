@@ -28,7 +28,7 @@
       "step": "importWxr",
       "file": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/bph/workshop/main/concrete-and-light.xml"
+        "url": "https://raw.githubusercontent.com/bph/workshop/main/concrete-and-light-wcasia.xml"
       }
     }
   ]

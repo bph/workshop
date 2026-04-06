@@ -28,7 +28,7 @@
       "step": "importWxr",
       "file": {
         "resource": "bundled",
-        "path": "/concrete-and-light.xml"
+        "path": "/concrete-and-light-wcasia.xml"
       }
     }
   ]
