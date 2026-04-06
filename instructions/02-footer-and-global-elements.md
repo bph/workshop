@@ -1,50 +1,12 @@
 ## Workshop: Footer & Global Element Styles
 
-In this exercise you'll style the global elements (buttons, links, headings) and build the footer template part to match the Concrete & Light design.
+In this exercise you'll build the footer template part and then style the global elements (buttons, links, headings) to match the Concrete & Light design.
 
 ---
 
-### Part A: Style Global Elements
+### Part A: Build the Footer Template Part
 
-Global element styles ensure every button, link, and heading across your site looks consistent — without styling each one individually.
-
-1. Go to **Appearance → Editor**, then click the **Styles** icon (half-moon circle, top-right)
-2. Click **Blocks** at the bottom of the Styles panel
-
-#### Buttons
-3. Click **Button**
-   - Under **Color**:
-     - Background: **Accent**
-     - Text: **Base**
-   - Under **Typography**:
-     - Font: **Jost**
-     - Size: **0.8125rem**
-     - Appearance: **Regular**
-     - Letter spacing: **0.12em**
-     - Text transform: **Uppercase**
-   - Under **Border**: set radius to **0**
-
-#### Links
-4. Go back to **Styles → Elements → Links** (you may need to click the back arrow first)
-   - Under **Color**:
-     - Default: **Accent**
-     - Hover: **Contrast**
-
-#### Headings
-5. Go to **Styles → Elements → Headings**
-   - Under **Typography**:
-     - Font: **Playfair Display**
-     - Appearance: **Medium**
-     - Line height: **1.15**
-     - Letter spacing: **-0.01em**
-   - Under **Color**:
-     - Text: **Contrast**
-
-6. Click **Save**
-
----
-
-### Part B: Build the Footer Template Part
+Coming off the header work, let's complete the other template part — the footer.
 
 1. In the Site Editor sidebar, go to **Patterns → Template Parts → Footer**
 2. Click to open the footer for editing
@@ -110,6 +72,45 @@ Global element styles ensure every button, link, and heading across your site lo
 
 ---
 
+### Part B: Style Global Elements
+
+Now that the header and footer are done, let's set global element styles. These ensure every button, link, and heading across your site looks consistent — without styling each one individually.
+
+1. Go to **Appearance → Editor**, then click the **Styles** icon (half-moon circle, top-right)
+
+#### Headings
+2. Go to **Styles → Elements → Headings**
+   - Under **Typography**:
+     - Font: **Playfair Display**
+     - Appearance: **Medium**
+     - Line height: **1.15**
+     - Letter spacing: **-0.01em**
+   - Under **Color**:
+     - Text: **Contrast**
+
+#### Links
+3. Go to **Styles → Elements → Links**
+   - Under **Color**:
+     - Default: **Accent**
+     - Hover: **Contrast**
+
+#### Buttons
+4. Go to **Styles → Blocks → Button**
+   - Under **Color**:
+     - Background: **Accent**
+     - Text: **Base**
+   - Under **Typography**:
+     - Font: **Jost**
+     - Size: **0.8125rem**
+     - Appearance: **Regular**
+     - Letter spacing: **0.12em**
+     - Text transform: **Uppercase**
+   - Under **Border**: set radius to **0**
+
+5. Click **Save**
+
+---
+
 ### Result
 
-Your site now has consistent global element styles and a fully built footer with the studio branding, navigation, social links, address, and copyright — all using the Concrete & Light palette and typography.
+Your site now has a fully built footer with studio branding, navigation, social links, address, and copyright — plus consistent global styles for headings, links, and buttons across every page.
