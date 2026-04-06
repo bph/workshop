@@ -79,7 +79,7 @@ body::before {
 
 /* Separator styling */
 .wp-block-separator.is-style-wide {
-    border-color: var(--wp--preset--color--border-subtle) !important;
+    border-color: var(--wp--preset--color--muted) !important;
 }
 
 /* Custom scrollbar */

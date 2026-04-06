@@ -27,8 +27,8 @@
 
 <!-- wp:columns {"align":"wide","className":"is-style-equal-cards","style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
 <div class="wp-block-columns alignwide is-style-equal-cards"><!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
-<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|muted"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
+<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--muted);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/project-bandra-cultural.png" alt="AI_IMAGE: A modern concrete cultural center in Bandra, Mumbai, with dramatic angular concrete volumes and deep recessed openings framing views of the Arabian Sea. Lush tropical vegetation creeps along the base. Board-formed concrete with warm patina under golden hour Mumbai light. Monumental yet intimate. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
@@ -49,8 +49,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
-<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|muted"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
+<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--muted);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/project-worli-tower.png" alt="AI_IMAGE: A sleek residential concrete tower rising above the Mumbai skyline in Worli, photographed at dusk. The facade features rhythmic deep concrete louvres and floor-to-ceiling glass revealing warm interior light. The Bandra-Worli Sea Link is visible in the background. Luxury, vertical, luminous. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 
@@ -71,8 +71,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"stretch","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|border-subtle"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
-<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--border-subtle);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:33.33%"><!-- wp:group {"className":"is-style-project-card","style":{"border":{"width":"1px","color":"var:preset|color|muted"},"spacing":{"padding":{"top":"0","bottom":"1.75rem","left":"0","right":"0"}}}} -->
+<div class="wp-block-group is-style-project-card has-border-color" style="border-color:var(--wp--preset--color--muted);border-width:1px;padding-top:0;padding-right:0;padding-bottom:1.75rem;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"0px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/project-colaba-gallery.png" alt="AI_IMAGE: A contemporary art gallery carved into a restored heritage building in Colaba, Mumbai. Raw exposed concrete intervention walls contrast with original colonial-era stone arches. Diffused zenithal light from skylights illuminates a vast white exhibition hall. Heritage meets brutalism. | photorealistic | landscape" style="border-radius:0px"/></figure>
 <!-- /wp:image -->
 

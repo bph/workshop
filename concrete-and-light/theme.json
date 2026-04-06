@@ -39,11 +39,6 @@
                     "slug": "deep",
                     "color": "#181614",
                     "name": "Deep"
-                },
-                {
-                    "slug": "border-subtle",
-                    "color": "rgba(232, 224, 208, 0.10)",
-                    "name": "Border Subtle"
                 }
             ],
             "gradients": [
@@ -264,10 +259,10 @@
         "blocks": {
             "core/separator": {
                 "color": {
-                    "text": "var(--wp--preset--color--border-subtle)"
+                    "text": "var(--wp--preset--color--muted)"
                 },
                 "border": {
-                    "color": "var(--wp--preset--color--border-subtle)"
+                    "color": "var(--wp--preset--color--muted)"
                 }
             },
             "core/quote": {
