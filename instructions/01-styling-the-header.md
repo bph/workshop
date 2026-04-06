@@ -14,7 +14,6 @@ Transform the default header (white background, serif title, tagline visible) in
 | Muted | `muted` | `#B0A99A` |
 | Surface | `surface` | `#3A3632` |
 | Deep | `deep` | `#181614` |
-| Border Subtle | `border-subtle` | `rgba(232, 224, 208, 0.10)` |
 
 ---
 
@@ -24,11 +23,11 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
 
 1. In the WordPress admin, go to **Appearance → Fonts**
 2. Click the **Install Fonts** tab
-5. Search for **Jost**
-   - Select the weights you need: **200 (ExtraLight)**, **300 (Light)**, **400 (Regular)**, and **500 (Medium)**
+3. Search for **Jost**
+   - Select the weights you need: **200**, **300**, **400**, and **500**
    - Click **Install**
-6. Search for **Playfair Display**
-   - Select weights: **400 (Regular)**, **500 (Medium)**, and **700 (Bold)**
+4. Search for **Playfair Display**
+   - Select weights: **400**, **500**, and **700**
    - Click **Install**
 7. You can now close the Fonts page
 
@@ -53,8 +52,8 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
    - Set **Background** to **Base**
    - Set **Text** to **Contrast**
 5. Click the back arrow, then click **Typography**
-   - Under **Text**, choose **Jost** with weight **300**
-   - Under **Headings**, choose **Playfair Display** with weight **500**
+   - Under **Text**, choose **Jost** and set **Appearance** to **Light**
+   - Under **Headings**, choose **Playfair Display** and set **Appearance** to **Medium**
 6. Click **Save** (top-right)
 
 > These global changes define your site's color palette and typography. Every block can now pick from these colors, and the header will inherit the defaults automatically.
@@ -79,7 +78,7 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
    - Under **Typography**, set:
      - Font: **Jost**
      - Size: **0.8rem**
-     - Weight: **300**
+     - Appearance: **Light**
      - Letter spacing: **0.25em**
      - Text transform: **Uppercase**
    - Under **Color**, set text color to **Contrast**
@@ -90,7 +89,7 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
    - Under **Typography**, set:
      - Font: **Jost**
      - Size: **0.75rem**
-     - Weight: **200**
+     - Appearance: **Extra Light**
      - Letter spacing: **0.15em**
      - Text transform: **Uppercase**
    - Set text color to **Contrast**
@@ -101,7 +100,7 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
     - Under **Color**, set **Background** to **Base**
     - Under **Border**, add a bottom border:
       - Width: **1px**
-      - Color: enter `rgba(232, 224, 208, 0.10)` in the custom color hex field
+      - Color: **Muted**
     - Under **Layout**, set to **Row** with **Space between** justification
     - Under **Dimensions/Spacing**, set padding:
       - Top: **2.5rem**
