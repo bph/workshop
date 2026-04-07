@@ -37,6 +37,7 @@ The home page currently shows the page title "Concrete & Light" as plain text ab
 8. Below the Spacer, add a **Title** block
    - This dynamically pulls the page title
    - Set to **H1**
+   - Under **Color**, set text to **Contrast**
    - Font: **Playfair Display**
    - Size: **7rem** (type the value in the font size field, then select **rem** from the unit dropdown)
    - Appearance: **Medium**
