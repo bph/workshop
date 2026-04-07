@@ -78,33 +78,31 @@ Now that the header and footer are done, let's set global element styles. These 
 
 1. Go to **Appearance → Editor**, then click the **Styles** icon (half-moon circle, top-right)
 
-#### Links
-2. Click **Typography**
-   - Under **Links**:
-     - Color: **Accent**
-     - Hover color: **Contrast**
-
 #### Headings
-3. Go back to the main Styles panel, then click **Blocks → Heading**
-   - Under **Typography**:
-     - Font: **Playfair Display**
-     - Appearance: **Medium**
-     - Line height: **1.15**
-     - Letter spacing: **-0.01em**
-   - Under **Color**:
-     - Text: **Contrast**
+2. Click **Typography**, then click **Headings**
+   - Font: **Playfair Display**
+   - Appearance: **Medium**
+   - Line height: **1.15**
+   - Letter spacing: **-0.01em**
+3. Go back to the main Styles panel, click **Colors**, then click **Heading**
+   - Set text color to **Contrast**
+
+#### Links
+4. Go back to **Colors**, then click **Link**
+   - Default: **Accent**
+   - Hover: **Contrast**
 
 #### Buttons
-4. Go back to **Blocks → Button**
-   - Under **Color**:
-     - Background: **Accent**
-     - Text: **Base**
-   - Under **Typography**:
-     - Font: **Jost**
-     - Size: **0.8125rem**
-     - Appearance: **Regular**
-     - Letter spacing: **0.12em**
-     - Text transform: **Uppercase**
+5. Go back to **Colors**, then click **Button**
+   - Text: **Base**
+   - Background: **Accent**
+6. Go back to the main Styles panel, click **Typography**, then click **Buttons**
+   - Font: **Jost**
+   - Size: **0.8125rem**
+   - Appearance: **Regular**
+   - Letter spacing: **0.12em**
+   - Text transform: **Uppercase**
+7. Go to the main Styles panel, click **Blocks → Button**
    - Under **Border**: set radius to **0**
 
 5. Click **Save**
