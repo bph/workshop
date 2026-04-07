@@ -97,7 +97,7 @@ This template displays project posts in a grid when visitors click a category li
    - Color: **Accent**
 
 8. Below it, add a **Query Title** block (Archive type)
-   - Font: **Playfair Display**, size **clamp(2rem, 4vw, 3rem)**, Appearance: **Medium**
+   - Font: **Playfair Display**, size **3rem**, Appearance: **Medium**
    - Line height: **1.15**
    - Color: **Contrast**
 
