@@ -78,24 +78,21 @@ Now that the header and footer are done, let's set global element styles. These 
 
 1. Go to **Appearance → Editor**, then click the **Styles** icon (half-moon circle, top-right)
 
-#### Headings
-2. Go to **Styles → Elements → Headings**
-   - Under **Typography**:
+#### Headings & Links
+2. Click **Typography**
+   - Under **Headings**:
      - Font: **Playfair Display**
      - Appearance: **Medium**
      - Line height: **1.15**
      - Letter spacing: **-0.01em**
-   - Under **Color**:
-     - Text: **Contrast**
-
-#### Links
-3. Go to **Styles → Elements → Links**
-   - Under **Color**:
-     - Default: **Accent**
-     - Hover: **Contrast**
+   - Under **Links**:
+     - Color: **Accent**
+     - Hover color: **Contrast**
+3. Click **Colors**
+   - Under **Headings**, set text color to **Contrast**
 
 #### Buttons
-4. Go to **Styles → Blocks → Button**
+4. Go back to the main Styles panel, then click **Blocks → Button**
    - Under **Color**:
      - Background: **Accent**
      - Text: **Base**
