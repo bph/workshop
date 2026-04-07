@@ -42,7 +42,7 @@ Coming off the header work, let's complete the other template part — the foote
 9. Add a **Heading** block (H4):
    - Text: "Studio"
    - Font: **Jost**, size **0.7rem**, Appearance: **Regular**
-   - Letter spacing: **0.15em**, Text transform: **Uppercase**
+   - Letter spacing: **0.15em**, Letter Case: **Uppercase**
    - Color: **Accent**
 10. Below it, add a **Page List** block
     - Font: **Jost**, size **0.8125rem**, Appearance: **Extra Light**
@@ -101,7 +101,7 @@ Now that the header and footer are done, let's set global element styles. These 
    - Size: **0.8125rem**
    - Appearance: **Regular**
    - Letter spacing: **0.12em**
-   - Text transform: **Uppercase**
+   - Letter Case: **Uppercase**
 7. Go to the main Styles panel, click **Blocks → Button**
    - Under **Border**: set radius to **0**
 

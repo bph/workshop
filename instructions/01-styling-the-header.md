@@ -80,7 +80,7 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
      - Size: **0.8rem**
      - Appearance: **Light**
      - Letter spacing: **0.25em**
-     - Text transform: **Uppercase**
+     - Letter Case: **Uppercase**
    - Under **Color**, set text color to **Contrast**
 
 #### Style the Navigation
@@ -91,7 +91,7 @@ Before you can use the Concrete & Light typography, you need to add the fonts to
      - Size: **0.75rem**
      - Appearance: **Extra Light**
      - Letter spacing: **0.15em**
-     - Text transform: **Uppercase**
+     - Letter Case: **Uppercase**
    - Set text color to **Contrast**
 
 #### Set the Layout
