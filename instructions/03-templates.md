@@ -96,7 +96,7 @@ This template displays project posts in a grid when visitors click a category li
    - Letter spacing: **0.2em**, Letter Case: **AB** (Uppercase)
    - Color: **Accent**
 
-8. Below it, add a **Query Title** block (Archive type)
+8. Below it, add an **Archive Title** block
    - Font: **Playfair Display**, size **3rem**, Appearance: **Medium**
    - Line height: **1.15**
    - Color: **Contrast**
