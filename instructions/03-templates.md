@@ -34,14 +34,13 @@ The home page currently shows the page title "Concrete & Light" as plain text ab
 7. Inside that Group, add a **Spacer** block
    - Set height to **55vh** (this pushes the title to the bottom of the hero)
 
-8. Below the Spacer, add a **Post Title** block
+8. Below the Spacer, add a **Title** block
    - This dynamically pulls the page title
    - Set to **H1**
    - Font: **Playfair Display**
-   - Size: **clamp(3.5rem, 9vw, 7rem)** (enter in the custom size field)
+   - Size: **7rem** (type the value in the font size field, then select **rem** from the unit dropdown)
    - Appearance: **Medium**
    - Line height: **0.9**
-   - Letter spacing: **-0.02em**
 
 #### Add the content area
 9. Below the Cover block, add a **Group** block
