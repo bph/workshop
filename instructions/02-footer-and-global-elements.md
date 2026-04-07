@@ -83,7 +83,6 @@ Now that the header and footer are done, let's set global element styles. These 
    - Font: **Playfair Display**
    - Appearance: **Medium**
    - Line height: **1.15**
-   - Letter spacing: **-0.01em**
 3. Go back to the main Styles panel, click **Colors**, then click **Heading**
    - Set text color to **Contrast**
 
