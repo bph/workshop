@@ -11,8 +11,9 @@ The home page currently shows the page title "Concrete & Light" as plain text ab
 #### Create the template
 1. Go to **Appearance → Editor**, then click **Templates** in the sidebar
 2. Click the **+** button to add a new template
-3. Choose **Page** as the template type, then name it **Landing Page**
-4. WordPress will create a template with default blocks — select all (Cmd+A) and delete them to start fresh
+3. Scroll down and choose **Custom Template**
+4. In the name field, type **Landing Page** and click **Create**
+5. WordPress will create an empty template for you to build
 
 #### Build the hero section
 5. Add a **Cover** block
