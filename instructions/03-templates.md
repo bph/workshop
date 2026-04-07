@@ -119,42 +119,56 @@ This template displays project posts in a grid when visitors click a category li
     - Choose **Start blank**
 
 12. Inside the Query Loop, add a **Post Template** block
-    - Set layout to **Grid**, **3 columns**
+    - Set layout to **Grid** (click the grid icon in the toolbar), **3 columns**
 
-13. Inside each grid item, add a **Group** block (the project card):
-    - Border: **1px**, color **Muted**
-    - Padding: Top **0**, Bottom **1.75rem**, Left/Right **0**
+#### Build the project card
 
-14. Inside the card Group:
-    - Add a **Post Featured Image** block
-      - Enable **Link to post**
-      - Border radius: **0**
-    - Add a **Group** block for the text area
-      - Padding: Top **1.25rem**, Left/Right **1.5rem**
-    - Inside the text Group, add:
-      - **Post Date** — Font: **Jost**, size **0.7rem**, Appearance: **Light**, Letter spacing: **0.15em**, Letter Case: **AB**, Color: **Accent**
-      - **Post Title** (H3, linked) — Font: **Playfair Display**, size **1.375rem**, Appearance: **Medium**, Line height: **1.25**, Color: **Contrast**, Hover color: **Accent**
-      - **Post Excerpt** — Font: **Jost**, size **0.8125rem**, Appearance: **Extra Light**, Line height: **1.65**, Color: **Muted**, Excerpt length: **24 words**
+The card has two layers: an outer Group for the border, and an inner Group for the text padding. Here's the structure:
+
+```
+Group (card — border + bottom padding)
+├── Featured Image
+└── Group (text area — inner padding)
+    ├── Post Date
+    ├── Title
+    └── Excerpt
+```
+
+13. Inside the Post Template, add a **Group** block — this is the card container:
+    - Under **Border**: width **1px**, color **Muted**
+    - Under **Dimensions/Spacing**: set padding to **0** on all sides, then set bottom padding to **1.75rem**
+
+14. Inside the card Group, add a **Post Featured Image** block
+    - Enable **Link to post**
+    - Border radius: **0**
+
+15. Below the Featured Image (still inside the card Group), add another **Group** block — this is the text area:
+    - Under **Dimensions/Spacing**: set padding top to **1.25rem**, left and right to **1.5rem**
+
+16. Inside the text area Group, add these blocks:
+    - **Post Date** — Font: **Jost**, size **0.7rem**, Appearance: **Light**, Letter spacing: **0.15em**, Letter Case: **AB**, Color: **Accent**
+    - **Title** (H3, enable **Make title a link**) — Font: **Playfair Display**, size **1.375rem**, Appearance: **Medium**, Line height: **1.25**, Color: **Contrast**
+    - **Excerpt** — Font: **Jost**, size **0.8125rem**, Appearance: **Extra Light**, Line height: **1.65**, Color: **Muted**, Excerpt length: **24 words**
 
 #### Add pagination
-15. Below the Query Loop, add a **Group** block with **Row** layout, centered
+17. Below the Query Loop, add a **Group** block with **Row** layout, centered
     - Top margin: **X-Large** (4rem)
-16. Inside, add a **Query Pagination** block
+18. Inside, add a **Query Pagination** block
     - Add Previous, Page Numbers, and Next
     - Font: **Jost**, size **0.8125rem**, Appearance: **Light**, Letter spacing: **0.1em**
     - Color: **Contrast**
 
 #### Add no results message
-17. Inside the Query Loop, add a **No Results** block
-18. Inside it, add a **Paragraph**:
+19. Inside the Query Loop, add a **No Results** block
+20. Inside it, add a **Paragraph**:
     - Text: "No projects found. Check back soon for new work."
     - Font: **Jost**, size **1.125rem**, Appearance: **Extra Light**
     - Color: **Muted**
 
 #### Add footer
-19. At the bottom, add a **Template Part** block → choose **Footer**
+21. At the bottom, add a **Template Part** block → choose **Footer**
 
-20. Click **Save**
+22. Click **Save**
 
 ---
 
