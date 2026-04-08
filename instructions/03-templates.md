@@ -29,7 +29,7 @@ The home page currently shows the page title "Concrete & Light" as plain text ab
 
 6. Inside the Cover block, add a **Group** block
    - Set min height to **80vh**
-   - Layout: **Constrained**, content width **860px**, justify left
+   - Under **Layout**, enable **Inner blocks use content width**, set content width to **860px**
 
 7. Inside that Group, add a **Spacer** block
    - Set height to **55vh** (this pushes the title to the bottom of the hero)
@@ -49,7 +49,7 @@ The home page currently shows the page title "Concrete & Light" as plain text ab
    - Set top/bottom padding to **0**, top margin to **0**
 
 10. Inside that Group, add a **Post Content** block
-    - Layout: **Constrained**
+    - Under **Layout**, enable **Inner blocks use content width**
 
 #### Add header and footer
 11. Move the cursor to the very top of the template (above the Cover block)
@@ -84,7 +84,7 @@ This template displays project posts in a grid when visitors click a category li
 6. Below the header, add a **Group** block
    - Background: **Base**
    - Alignment: **Full width**
-   - Layout: **Constrained**, wide width **1280px**
+   - Under **Layout**, enable **Inner blocks use content width** (uses the theme defaults: 860px content, 1280px wide)
    - Padding: Top **Huge** (8rem), Bottom **X-Large** (4rem), Left/Right **X-Large** (4rem)
    - Top margin: **0**
 
@@ -108,7 +108,7 @@ This template displays project posts in a grid when visitors click a category li
 10. Below the archive header Group, add another **Group** block
     - Background: **Deep**
     - Alignment: **Full width**
-    - Layout: **Constrained**, wide width **1280px**
+    - Under **Layout**, enable **Inner blocks use content width** (uses the theme defaults: 860px content, 1280px wide)
     - Padding: Top **XX-Large** (6rem), Bottom **Huge** (8rem), Left/Right **X-Large** (4rem)
     - Top margin: **0**
 
