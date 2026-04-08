@@ -38,10 +38,9 @@ The home page currently shows the page title "Concrete & Light" as plain text ab
    - This dynamically pulls the page title
    - Set to **H1**
    - Under **Color**, set text to **Contrast**
-   - Font: **Playfair Display**
    - Size: **7rem** (type the value in the font size field, then select **rem** from the unit dropdown)
-   - Appearance: **Medium**
    - Line height: **0.9**
+   - Font, appearance, and color are inherited from Global Styles
 
 #### Add the content area
 9. Below the Cover block, add a **Group** block
@@ -97,9 +96,9 @@ This template displays project posts in a grid when visitors click a category li
    - Color: **Accent**
 
 8. Below it, add an **Archive Title** block
-   - Font: **Playfair Display**, size **3rem**, Appearance: **Medium**
+   - Size: **3rem**
    - Line height: **1.15**
-   - Color: **Contrast**
+   - Font, appearance, and color are inherited from Global Styles
 
 9. Below it, add a **Term Description** block
    - Font: **Jost**, size **1rem**, Appearance: **Extra Light**
@@ -147,7 +146,7 @@ Group (card — border + bottom padding)
 
 16. Inside the text area Group, add these blocks:
     - **Post Date** — Font: **Jost**, size **0.7rem**, Appearance: **Light**, Letter spacing: **0.15em**, Letter Case: **AB**, Color: **Accent**
-    - **Title** (H3, enable **Make title a link**) — Font: **Playfair Display**, size **1.375rem**, Appearance: **Medium**, Line height: **1.25**, Color: **Contrast**
+    - **Title** (H3, enable **Make title a link**) — Size: **1.375rem**, Line height: **1.25** (font, appearance, and color inherited from Global Styles)
     - **Excerpt** — Font: **Jost**, size **0.8125rem**, Appearance: **Extra Light**, Line height: **1.65**, Color: **Muted**, Excerpt length: **24 words**
 
 #### Add pagination

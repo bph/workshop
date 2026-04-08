@@ -31,8 +31,7 @@ Coming off the header work, let's complete the other template part — the foote
 #### Column 1 — Studio name & tagline
 7. Add a **Heading** block (H3):
    - Text: "Concrete & Light"
-   - Font: **Playfair Display**, size **1.75rem**, Appearance: **Medium**
-   - Color: **Contrast**
+   - Size: **1.75rem** (font, appearance, and color are inherited from Global Styles)
 8. Below it, add a **Paragraph**:
    - Text: "Spaces carved from silence and poured in stone. An architectural practice dedicated to the honest expression of material and light."
    - Font: **Jost**, size **0.875rem**, Appearance: **Extra Light**
